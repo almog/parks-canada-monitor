@@ -1,0 +1,27 @@
+# Find campsite names with: parks-monitor discover --park <name>
+entries:
+  - name: "Egypt Lake - Banff"
+    campground: "Egypt Lake"
+    campsites: ["Egypt Lake - E13"]
+    date_ranges:
+      - start: "2026-07-01"
+        end: "2026-07-03"
+    flexibility_days: 2
+    party_size: 1
+
+  - name: "Jasper - Athabasca Pass"
+    campground: "Athabasca Pass"
+    campsites: ["61 - Athabasca Pass", "58 - Middle Forks", "59 - Scott Camp"]
+    date_ranges:
+      - start: "2026-07-10"
+        end: "2026-07-12"
+    flexibility_days: 1
+    party_size: 1
+
+  # You can also use resource IDs directly if you prefer
+  # - name: "Twin Lakes - Banff"
+  #   campground: "Twin Lakes"
+  #   resource_ids: [-2147482979]
+  #   date_ranges:
+  #     - start: "2026-07-15"
+  #       end: "2026-07-17"

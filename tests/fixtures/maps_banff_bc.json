@@ -1,0 +1,4658 @@
+[
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483646,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/91012efe-8007-4baf-9962-8917ac6ef99e.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/73123dd3-9ee0-435a-a89b-fe969f38829f.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483589,
+            "resourceLocationId": -2147483638
+        },
+        "mapId": -2147483588,
+        "versionId": -2147431371,
+        "versionDate": "2023-01-12T15:06:00.033Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 600,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Banff Random Camping",
+                "description": "Banff Random Camping",
+                "mapImageUid": "91012efe-8007-4baf-9962-8917ac6ef99e",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Banff Camping (en tous lieux)",
+                "description": "Banff Camping (en tous lieux)",
+                "mapImageUid": "73123dd3-9ee0-435a-a89b-fe969f38829f",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483638,
+        "mapResources": [
+            {
+                "resourceId": -2147483137,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 225,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 229,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483134,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 165,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 169,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483133,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 255,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483130,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 376,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 380,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483125,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 135,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 139,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483120,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 406,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 410,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483117,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 195,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 199,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483116,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 225,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 229,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483111,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 315,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 319,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483102,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 285,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 289,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483099,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 165,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 169,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483095,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 225,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 229,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483088,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 346,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 350,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483080,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 436,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 440,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483079,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 165,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 169,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483075,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 405,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 409,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483072,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 375,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 379,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483069,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 135,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 139,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483061,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 557,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 561,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483056,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 466,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 470,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483053,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 496,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 500,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483052,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 436,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 440,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483051,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 285,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 289,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483049,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 195,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 199,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483042,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 435,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 439,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483034,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 466,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 470,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483029,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 195,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 199,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483019,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 526,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 530,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483011,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 345,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 349,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483006,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 255,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483004,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 255,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483000,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 34,
+                    "yCoordinate": 285,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 20,
+                "yCoordinate": 289,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482992,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 135,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 139,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482988,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 291,
+                    "yCoordinate": 315,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 277,
+                "yCoordinate": 319,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482975,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 565,
+                    "yCoordinate": 405,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 551,
+                "yCoordinate": 409,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483646,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/cec54df6-fa07-4a92-a606-7e746d1ba7e9.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/e7b09c35-f584-4bb6-a681-4ca4d014fb90.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483589,
+            "resourceLocationId": -2147483638
+        },
+        "mapId": -2147483587,
+        "versionId": -2147431370,
+        "versionDate": "2023-01-12T15:06:00.033Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 600,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Yoho Random Camping",
+                "description": "Yoho Random Camping",
+                "mapImageUid": "cec54df6-fa07-4a92-a606-7e746d1ba7e9",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Yoho Camping (en tous lieux)",
+                "description": "Yoho Camping (en tous lieux)",
+                "mapImageUid": "e7b09c35-f584-4bb6-a681-4ca4d014fb90",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483638,
+        "mapResources": [
+            {
+                "resourceId": -2147483138,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 155,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 159,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483098,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 383,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 387,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483096,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 523,
+                    "yCoordinate": 383,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 509,
+                "yCoordinate": 387,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483092,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 421,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 425,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483087,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 523,
+                    "yCoordinate": 269,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 509,
+                "yCoordinate": 273,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483083,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 307,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 311,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483058,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 523,
+                    "yCoordinate": 421,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 509,
+                "yCoordinate": 425,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483039,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 523,
+                    "yCoordinate": 193,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 509,
+                "yCoordinate": 197,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483031,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 231,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 235,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483023,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 269,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 273,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483016,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 345,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 349,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482996,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 523,
+                    "yCoordinate": 231,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 509,
+                "yCoordinate": 235,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482977,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 523,
+                    "yCoordinate": 155,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 509,
+                "yCoordinate": 159,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482972,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 64,
+                    "yCoordinate": 193,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 197,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483646,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/92b5e599-4071-440c-833a-1cb8cb86ec9c.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/233d4acb-087d-4780-911d-b9ca50c88bcf.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483589,
+            "resourceLocationId": -2147483638
+        },
+        "mapId": -2147483586,
+        "versionId": -2147431369,
+        "versionDate": "2023-01-12T15:06:00.033Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 600,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Kootenay Random Camping",
+                "description": "Kootenay Random Camping",
+                "mapImageUid": "92b5e599-4071-440c-833a-1cb8cb86ec9c",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Kootenay Camping (en tous lieux)",
+                "description": "Kootenay Camping (en tous lieux)",
+                "mapImageUid": "233d4acb-087d-4780-911d-b9ca50c88bcf",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483638,
+        "mapResources": [
+            {
+                "resourceId": -2147483114,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 172,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 176,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483100,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 487,
+                    "yCoordinate": 206,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 473,
+                "yCoordinate": 210,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483097,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 487,
+                    "yCoordinate": 172,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 473,
+                "yCoordinate": 176,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483032,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 380,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 384,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483018,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 310,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 314,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482989,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 206,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 210,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482987,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 345,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 349,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482980,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 276,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 280,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482974,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 58,
+                    "yCoordinate": 241,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 44,
+                "yCoordinate": 245,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483646,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/6f6128db-8ac9-47b6-b64a-3a6590dd6168.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/6b95b3d1-5d7e-4218-a51f-7fd8f5201eab.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483589,
+            "resourceLocationId": -2147483638
+        },
+        "mapId": -2147483585,
+        "versionId": -2147431368,
+        "versionDate": "2023-01-12T15:06:00.033Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 600,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Horse Grazing Campsites",
+                "description": "Horse Grazing Campsites",
+                "mapImageUid": "6f6128db-8ac9-47b6-b64a-3a6590dd6168",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Emplacements de p\u00e2turage",
+                "description": "Emplacements de p\u00e2turage",
+                "mapImageUid": "6b95b3d1-5d7e-4218-a51f-7fd8f5201eab",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483638,
+        "mapResources": [
+            {
+                "resourceId": -2147483141,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 498,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 502,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483139,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 84,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 88,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483132,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 401,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 405,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483131,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 376,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 380,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483129,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 328,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 332,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483128,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 425,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 429,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483126,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 352,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 356,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483124,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 279,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 283,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483121,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 206,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 210,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483115,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 303,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 307,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483108,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 474,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 478,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483106,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 181,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 185,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483091,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 572,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 576,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483089,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 523,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 527,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483085,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 328,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 332,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483084,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 157,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 161,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483078,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 547,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 551,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483073,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 376,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 380,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483070,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 352,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 356,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483068,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 303,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 307,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483059,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 108,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 112,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483045,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 206,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 210,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483044,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 132,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 136,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483043,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 181,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 185,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483037,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 401,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 405,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483036,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 450,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 454,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483033,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 279,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 283,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483026,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 230,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 234,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483020,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 425,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 429,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483017,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 108,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 112,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483015,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 157,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 161,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483013,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 498,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 502,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483012,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 450,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 454,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483010,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 572,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 576,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483003,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 474,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 478,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482995,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 84,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 88,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482994,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 523,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 527,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482993,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 132,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 136,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482991,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 547,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 551,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482986,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 254,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 258,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482976,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 230,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 472,
+                "yCoordinate": 234,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482969,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 123,
+                    "yCoordinate": 254,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 109,
+                "yCoordinate": 258,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483646,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/320b9859-062d-46c4-9145-1dc0f05e3e19.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/5476a0c4-3b9b-40fb-8609-2452202422af.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483574,
+            "resourceLocationId": null
+        },
+        "mapId": -2147483589,
+        "versionId": -2147339595,
+        "versionDate": "2024-10-17T03:02:00.017Z",
+        "mapType": 3,
+        "isDisabled": false,
+        "xDimension": 4255,
+        "yDimension": 5169,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Banff, Kootenay and Yoho Backcountry",
+                "description": "Banff, Kootenay and Yoho National Parks - Backcountry",
+                "mapImageUid": "320b9859-062d-46c4-9145-1dc0f05e3e19",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Banff, Kootenay et Yoho (Arri\u00e8re-pays)",
+                "description": "Arri\u00e8re-pays des parcs nationaux de Banff, Kootenay et Yoho",
+                "mapImageUid": "5476a0c4-3b9b-40fb-8609-2452202422af",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483638,
+        "mapResources": [
+            {
+                "resourceId": -2147483142,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2695,
+                    "yCoordinate": 3330,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2823,
+                "yCoordinate": 3342,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483140,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2800,
+                    "yCoordinate": 2891,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2788,
+                "yCoordinate": 2886,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483136,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2921,
+                    "yCoordinate": 2826,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3040,
+                "yCoordinate": 2841,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483135,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3684,
+                    "yCoordinate": 2453,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3668,
+                "yCoordinate": 2457,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483127,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2261,
+                    "yCoordinate": 3577,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2249,
+                "yCoordinate": 3572,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483123,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3512,
+                    "yCoordinate": 3515,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3500,
+                "yCoordinate": 3527,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483122,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3604,
+                    "yCoordinate": 4256,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3592,
+                "yCoordinate": 4268,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483119,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3568,
+                    "yCoordinate": 4896,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3552,
+                "yCoordinate": 4900,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483118,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3794,
+                    "yCoordinate": 3145,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3924,
+                "yCoordinate": 3157,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483113,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2248,
+                    "yCoordinate": 2132,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2236,
+                "yCoordinate": 2144,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483110,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2731,
+                    "yCoordinate": 3393,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2719,
+                "yCoordinate": 3405,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483109,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2791,
+                    "yCoordinate": 3201,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2887,
+                "yCoordinate": 3196,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483107,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1989,
+                    "yCoordinate": 2139,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1977,
+                "yCoordinate": 2151,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483105,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2822,
+                    "yCoordinate": 3018,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2925,
+                "yCoordinate": 3013,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483104,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3529,
+                    "yCoordinate": 4236,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3517,
+                "yCoordinate": 4231,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483103,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2353,
+                    "yCoordinate": 3737,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2341,
+                "yCoordinate": 3749,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483101,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3540,
+                    "yCoordinate": 3053,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3694,
+                "yCoordinate": 3065,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483094,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3240,
+                    "yCoordinate": 2844,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3352,
+                "yCoordinate": 2856,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483093,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2543,
+                    "yCoordinate": 2681,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2698,
+                "yCoordinate": 2694,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483090,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2592,
+                    "yCoordinate": 2543,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2580,
+                "yCoordinate": 2555,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483086,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 347,
+                    "yCoordinate": 719,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 335,
+                "yCoordinate": 731,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483082,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2187,
+                    "yCoordinate": 3307,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2175,
+                "yCoordinate": 3302,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483081,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2436,
+                    "yCoordinate": 2492,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2424,
+                "yCoordinate": 2487,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483077,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2063,
+                    "yCoordinate": 1897,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2051,
+                "yCoordinate": 1909,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483076,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2990,
+                    "yCoordinate": 3050,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3100,
+                "yCoordinate": 3062,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483074,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2918,
+                    "yCoordinate": 4170,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2902,
+                "yCoordinate": 4174,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483067,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2655,
+                    "yCoordinate": 3470,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2776,
+                "yCoordinate": 3482,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483066,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1720,
+                    "yCoordinate": 1289,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1704,
+                "yCoordinate": 1293,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483065,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3106,
+                    "yCoordinate": 3783,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3094,
+                "yCoordinate": 3795,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483064,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 936,
+                    "yCoordinate": 614,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 924,
+                "yCoordinate": 609,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483063,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2455,
+                    "yCoordinate": 3019,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2443,
+                "yCoordinate": 3014,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483062,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3709,
+                    "yCoordinate": 4487,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3697,
+                "yCoordinate": 4499,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483060,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 4011,
+                    "yCoordinate": 3152,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3999,
+                "yCoordinate": 3147,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483057,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3874,
+                    "yCoordinate": 3855,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3858,
+                "yCoordinate": 3859,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483055,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1694,
+                    "yCoordinate": 2453,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1682,
+                "yCoordinate": 2465,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483054,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2820,
+                    "yCoordinate": 3580,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2808,
+                "yCoordinate": 3592,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483050,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1823,
+                    "yCoordinate": 3088,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1905,
+                "yCoordinate": 3100,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483048,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3279,
+                    "yCoordinate": 3655,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3265,
+                "yCoordinate": 3662,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483047,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3639,
+                    "yCoordinate": 4600,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3719,
+                "yCoordinate": 4612,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483046,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3446,
+                    "yCoordinate": 4130,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3434,
+                "yCoordinate": 4142,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483041,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 948,
+                    "yCoordinate": 1110,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1045,
+                "yCoordinate": 1122,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483040,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3913,
+                    "yCoordinate": 4236,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3897,
+                "yCoordinate": 4240,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483038,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2733,
+                    "yCoordinate": 3717,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2721,
+                "yCoordinate": 3712,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483035,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3597,
+                    "yCoordinate": 2828,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3581,
+                "yCoordinate": 2832,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483030,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2261,
+                    "yCoordinate": 1948,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2249,
+                "yCoordinate": 1960,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483028,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2168,
+                    "yCoordinate": 3497,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2156,
+                "yCoordinate": 3492,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483027,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3931,
+                    "yCoordinate": 4659,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3915,
+                "yCoordinate": 4663,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483025,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3856,
+                    "yCoordinate": 3127,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3969,
+                "yCoordinate": 3139,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483024,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3248,
+                    "yCoordinate": 3205,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3236,
+                "yCoordinate": 3217,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483022,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2775,
+                    "yCoordinate": 2718,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2926,
+                "yCoordinate": 2731,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483021,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2313,
+                    "yCoordinate": 2309,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2441,
+                "yCoordinate": 2322,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483014,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2672,
+                    "yCoordinate": 3503,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2660,
+                "yCoordinate": 3498,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483009,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 918,
+                    "yCoordinate": 324,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 902,
+                "yCoordinate": 328,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483008,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2568,
+                    "yCoordinate": 2416,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2556,
+                "yCoordinate": 2428,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483007,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3811,
+                    "yCoordinate": 2611,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3795,
+                "yCoordinate": 2615,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483005,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3309,
+                    "yCoordinate": 3025,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3297,
+                "yCoordinate": 3037,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483002,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1632,
+                    "yCoordinate": 2238,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1620,
+                "yCoordinate": 2250,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483001,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2938,
+                    "yCoordinate": 3634,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2926,
+                "yCoordinate": 3629,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482999,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2562,
+                    "yCoordinate": 2289,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2550,
+                "yCoordinate": 2284,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482998,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3002,
+                    "yCoordinate": 2990,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3129,
+                "yCoordinate": 3002,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482997,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2057,
+                    "yCoordinate": 3338,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2045,
+                "yCoordinate": 3333,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482990,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3799,
+                    "yCoordinate": 3059,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3787,
+                "yCoordinate": 3071,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482985,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3494,
+                    "yCoordinate": 3023,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3482,
+                "yCoordinate": 3035,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482984,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3742,
+                    "yCoordinate": 3046,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3729,
+                "yCoordinate": 3058,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482983,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2815,
+                    "yCoordinate": 2860,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2803,
+                "yCoordinate": 2872,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482982,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1653,
+                    "yCoordinate": 2319,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1641,
+                "yCoordinate": 2331,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482981,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1944,
+                    "yCoordinate": 1596,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1932,
+                "yCoordinate": 1608,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482979,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2659,
+                    "yCoordinate": 3242,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2647,
+                "yCoordinate": 3254,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482978,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3524,
+                    "yCoordinate": 4185,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3512,
+                "yCoordinate": 4197,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482973,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1462,
+                    "yCoordinate": 2334,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1518,
+                "yCoordinate": 2346,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482971,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2148,
+                    "yCoordinate": 2847,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2136,
+                "yCoordinate": 2842,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147482970,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2951,
+                    "yCoordinate": 2662,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3048,
+                "yCoordinate": 2675,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 886,
+                "height": 664,
+                "resourceId": -2147482968,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2898,
+                    "yCoordinate": 3834,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2891,
+                "yCoordinate": 3828,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 861,
+                "height": 646,
+                "resourceId": -2147482967,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2599,
+                    "yCoordinate": 3277,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2594,
+                "yCoordinate": 3275,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 878,
+                "height": 658,
+                "resourceId": -2147482966,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2939,
+                    "yCoordinate": 3905,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2935,
+                "yCoordinate": 3905,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 858,
+                "height": 644,
+                "resourceId": -2147482964,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2173,
+                    "yCoordinate": 1031,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2173,
+                "yCoordinate": 1031,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 853,
+                "height": 639,
+                "resourceId": -2147482963,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1078,
+                    "yCoordinate": 2292,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1071,
+                "yCoordinate": 2290,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 890,
+                "height": 667,
+                "resourceId": -2147482962,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 259,
+                    "yCoordinate": 179,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 259,
+                "yCoordinate": 179,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 856,
+                "height": 642,
+                "resourceId": -2147482960,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1941,
+                    "yCoordinate": 2305,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1936,
+                "yCoordinate": 2302,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 860,
+                "height": 645,
+                "resourceId": -2147482958,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2454,
+                    "yCoordinate": 2839,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2451,
+                "yCoordinate": 2839,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482957,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2217,
+                    "yCoordinate": 3520,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2216,
+                "yCoordinate": 3520,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 883,
+                "height": 662,
+                "resourceId": -2147482956,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2472,
+                    "yCoordinate": 1315,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2470,
+                "yCoordinate": 1313,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 856,
+                "height": 642,
+                "resourceId": -2147482952,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1617,
+                    "yCoordinate": 1842,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1612,
+                "yCoordinate": 1842,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 851,
+                "height": 638,
+                "resourceId": -2147482951,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1847,
+                    "yCoordinate": 2403,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1844,
+                "yCoordinate": 2401,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 866,
+                "height": 649,
+                "resourceId": -2147482950,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2898,
+                    "yCoordinate": 2977,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2898,
+                "yCoordinate": 2977,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482949,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1897,
+                    "yCoordinate": 3134,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1895,
+                "yCoordinate": 3136,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482948,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2114,
+                    "yCoordinate": 2689,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2110,
+                "yCoordinate": 2687,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 851,
+                "height": 638,
+                "resourceId": -2147482947,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2099,
+                    "yCoordinate": 3370,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2094,
+                "yCoordinate": 3366,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482946,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3305,
+                    "yCoordinate": 2623,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3298,
+                "yCoordinate": 2618,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 856,
+                "height": 642,
+                "resourceId": -2147482945,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1412,
+                    "yCoordinate": 1611,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1409,
+                "yCoordinate": 1607,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 860,
+                "height": 645,
+                "resourceId": -2147482944,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2783,
+                    "yCoordinate": 3141,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2781,
+                "yCoordinate": 3142,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 860,
+                "height": 645,
+                "resourceId": -2147482943,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2508,
+                    "yCoordinate": 2859,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2504,
+                "yCoordinate": 2859,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482942,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3095,
+                    "yCoordinate": 1802,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3090,
+                "yCoordinate": 1798,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 861,
+                "height": 646,
+                "resourceId": -2147482941,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3392,
+                    "yCoordinate": 4002,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3392,
+                "yCoordinate": 4002,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482940,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1152,
+                    "yCoordinate": 2582,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1151,
+                "yCoordinate": 2581,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 879,
+                "height": 659,
+                "resourceId": -2147482939,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3377,
+                    "yCoordinate": 3666,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3375,
+                "yCoordinate": 3668,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 891,
+                "height": 668,
+                "resourceId": -2147482938,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 500,
+                    "yCoordinate": 342,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 497,
+                "yCoordinate": 342,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 881,
+                "height": 661,
+                "resourceId": -2147482936,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2273,
+                    "yCoordinate": 1046,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2269,
+                "yCoordinate": 1046,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482935,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2004,
+                    "yCoordinate": 3066,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1999,
+                "yCoordinate": 3066,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 862,
+                "height": 646,
+                "resourceId": -2147482933,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2821,
+                    "yCoordinate": 3058,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2816,
+                "yCoordinate": 3053,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 881,
+                "height": 661,
+                "resourceId": -2147482932,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2329,
+                    "yCoordinate": 1300,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2324,
+                "yCoordinate": 1298,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482930,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3377,
+                    "yCoordinate": 2730,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3373,
+                "yCoordinate": 2729,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482929,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2003,
+                    "yCoordinate": 3229,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1998,
+                "yCoordinate": 3226,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 872,
+                "height": 654,
+                "resourceId": -2147482928,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2775,
+                    "yCoordinate": 3528,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2775,
+                "yCoordinate": 3528,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 838,
+                "height": 628,
+                "resourceId": -2147482926,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2009,
+                    "yCoordinate": 865,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2006,
+                "yCoordinate": 867,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 883,
+                "height": 662,
+                "resourceId": -2147482924,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2994,
+                    "yCoordinate": 4059,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2990,
+                "yCoordinate": 4059,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 888,
+                "height": 666,
+                "resourceId": -2147482923,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 756,
+                    "yCoordinate": 641,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 749,
+                "yCoordinate": 637,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482922,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2737,
+                    "yCoordinate": 1501,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2734,
+                "yCoordinate": 1498,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 930,
+                "height": 697,
+                "resourceId": -2147482921,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3241,
+                    "yCoordinate": 4328,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3238,
+                "yCoordinate": 4329,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482919,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1304,
+                    "yCoordinate": 2119,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1300,
+                "yCoordinate": 2118,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482918,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2104,
+                    "yCoordinate": 3326,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2101,
+                "yCoordinate": 3328,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 853,
+                "height": 640,
+                "resourceId": -2147482917,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1914,
+                    "yCoordinate": 2400,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1914,
+                "yCoordinate": 2400,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 861,
+                "height": 645,
+                "resourceId": -2147482916,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3118,
+                    "yCoordinate": 2864,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3118,
+                "yCoordinate": 2864,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 928,
+                "height": 696,
+                "resourceId": -2147482915,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3291,
+                    "yCoordinate": 4399,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3288,
+                "yCoordinate": 4400,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 883,
+                "height": 662,
+                "resourceId": -2147482914,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3033,
+                    "yCoordinate": 3162,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3031,
+                "yCoordinate": 3164,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 858,
+                "height": 643,
+                "resourceId": -2147482913,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1861,
+                    "yCoordinate": 2282,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1859,
+                "yCoordinate": 2284,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 930,
+                "height": 697,
+                "resourceId": -2147482911,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3130,
+                    "yCoordinate": 4229,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3127,
+                "yCoordinate": 4229,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 858,
+                "height": 644,
+                "resourceId": -2147482910,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2351,
+                    "yCoordinate": 1145,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2348,
+                "yCoordinate": 1143,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 838,
+                "height": 628,
+                "resourceId": -2147482909,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2977,
+                    "yCoordinate": 1735,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2974,
+                "yCoordinate": 1731,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 861,
+                "height": 646,
+                "resourceId": -2147482908,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2562,
+                    "yCoordinate": 2939,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2561,
+                "yCoordinate": 2939,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482906,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3062,
+                    "yCoordinate": 3144,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3059,
+                "yCoordinate": 3144,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 881,
+                "height": 661,
+                "resourceId": -2147482905,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3129,
+                    "yCoordinate": 2845,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3126,
+                "yCoordinate": 2845,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 930,
+                "height": 697,
+                "resourceId": -2147482904,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2912,
+                    "yCoordinate": 3737,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2909,
+                "yCoordinate": 3735,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 929,
+                "height": 697,
+                "resourceId": -2147482903,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3319,
+                    "yCoordinate": 4304,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3319,
+                "yCoordinate": 4304,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 881,
+                "height": 661,
+                "resourceId": -2147482902,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3293,
+                    "yCoordinate": 3409,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3289,
+                "yCoordinate": 3409,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 850,
+                "height": 637,
+                "resourceId": -2147482901,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2112,
+                    "yCoordinate": 2888,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2107,
+                "yCoordinate": 2887,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482900,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2927,
+                    "yCoordinate": 3097,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2925,
+                "yCoordinate": 3097,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482899,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2320,
+                    "yCoordinate": 2834,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2319,
+                "yCoordinate": 2834,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 854,
+                "height": 641,
+                "resourceId": -2147482898,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 1565,
+                    "yCoordinate": 1672,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1562,
+                "yCoordinate": 1669,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 860,
+                "height": 645,
+                "resourceId": -2147482897,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2616,
+                    "yCoordinate": 3348,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2612,
+                "yCoordinate": 3350,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 880,
+                "height": 660,
+                "resourceId": -2147482895,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 2876,
+                    "yCoordinate": 3806,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2876,
+                "yCoordinate": 3806,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147483100,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2413,
+                "yCoordinate": 1157,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483099,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2616,
+                "yCoordinate": 1357,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483098,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2697,
+                "yCoordinate": 1342,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483097,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2700,
+                "yCoordinate": 1459,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483096,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2729,
+                "yCoordinate": 1612,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483095,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2901,
+                "yCoordinate": 1614,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483094,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3137,
+                "yCoordinate": 1787,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483093,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3380,
+                "yCoordinate": 2025,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483092,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3465,
+                "yCoordinate": 2129,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483091,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3623,
+                "yCoordinate": 2945,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483090,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 4181,
+                "yCoordinate": 3047,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483089,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3538,
+                "yCoordinate": 3155,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483088,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3495,
+                "yCoordinate": 3183,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483087,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3368,
+                "yCoordinate": 3287,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483086,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3248,
+                "yCoordinate": 3376,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483085,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3187,
+                "yCoordinate": 3453,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483084,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3341,
+                "yCoordinate": 3397,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483083,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3473,
+                "yCoordinate": 3437,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483082,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3449,
+                "yCoordinate": 3452,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483081,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3700,
+                "yCoordinate": 3720,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483080,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3004,
+                "yCoordinate": 3577,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483079,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3864,
+                "yCoordinate": 3990,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483078,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 3788,
+                "yCoordinate": 4321,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483077,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3801,
+                "yCoordinate": 4617,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483076,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3797,
+                "yCoordinate": 4781,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483075,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3691,
+                "yCoordinate": 4662,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483074,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3563,
+                "yCoordinate": 4564,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483073,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3424,
+                "yCoordinate": 4370,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483072,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3366,
+                "yCoordinate": 4226,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483071,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3334,
+                "yCoordinate": 4056,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483070,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3340,
+                "yCoordinate": 4118,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483069,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3344,
+                "yCoordinate": 4138,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483068,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3146,
+                "yCoordinate": 3846,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483067,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 3008,
+                "yCoordinate": 3664,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483066,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2968,
+                "yCoordinate": 3248,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483065,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2912,
+                "yCoordinate": 3172,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483064,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2857,
+                "yCoordinate": 3137,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483063,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2743,
+                "yCoordinate": 3136,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483062,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2532,
+                "yCoordinate": 3184,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483061,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2342,
+                "yCoordinate": 2594,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483060,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2254,
+                "yCoordinate": 2590,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483059,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2270,
+                "yCoordinate": 2715,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483058,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2536,
+                "yCoordinate": 2990,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483057,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 901,
+                "yCoordinate": 669,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483056,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 1183,
+                "yCoordinate": 968,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483055,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 1833,
+                "yCoordinate": 1924,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483054,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 1973,
+                "yCoordinate": 1986,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483053,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2024,
+                "yCoordinate": 2153,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483052,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 1689,
+                "yCoordinate": 2419,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483051,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 1588,
+                "yCoordinate": 2598,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483050,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 1563,
+                "yCoordinate": 2890,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483049,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2366,
+                "yCoordinate": 3355,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483048,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2322,
+                "yCoordinate": 3426,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483047,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2361,
+                "yCoordinate": 3527,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483046,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2489,
+                "yCoordinate": 3650,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483045,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2623,
+                "yCoordinate": 3829,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483044,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 747,
+                "yCoordinate": 506,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483043,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 2318,
+                "yCoordinate": 2725,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483042,
+                "legendItemType": 126,
+                "iconType": 17,
+                "xCoordinate": 3025,
+                "yCoordinate": 3596,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483041,
+                "legendItemType": 40,
+                "iconType": 17,
+                "xCoordinate": 3025,
+                "yCoordinate": 3616,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147483040,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 2484,
+                "yCoordinate": 3670,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    }
+]

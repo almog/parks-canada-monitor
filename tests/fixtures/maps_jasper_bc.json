@@ -1,0 +1,5685 @@
+[
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/af394e5b-9866-4316-a94e-ba19a7bbc63d.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/ae099120-b120-4612-a72b-00d0e9e6b0bb.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483421,
+        "versionId": -2147348908,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Athabasca Pass",
+                "description": "Athabasca Pass Trail",
+                "mapImageUid": "af394e5b-9866-4316-a94e-ba19a7bbc63d",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Col Athabasca",
+                "description": "Sentier du Col Athabasca",
+                "mapImageUid": "ae099120-b120-4612-a72b-00d0e9e6b0bb",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483256,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 266,
+                    "yCoordinate": 652,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 318,
+                "yCoordinate": 671,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483242,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 424,
+                    "yCoordinate": 303,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 478,
+                "yCoordinate": 321,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483230,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 359,
+                    "yCoordinate": 438,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 403,
+                "yCoordinate": 458,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483192,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 459,
+                    "yCoordinate": 186,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 505,
+                "yCoordinate": 204,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483185,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 535,
+                    "yCoordinate": 123,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 579,
+                "yCoordinate": 141,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483178,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 254,
+                    "yCoordinate": 535,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 308,
+                "yCoordinate": 553,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 760,
+                "height": 570,
+                "resourceId": -2147483158,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 614,
+                    "yCoordinate": 22,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 31,
+                "yCoordinate": 7,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481739,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 639,
+                "yCoordinate": 39,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481738,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 773,
+                "yCoordinate": 55,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481737,
+                "legendItemType": 645,
+                "iconType": 17,
+                "xCoordinate": 753,
+                "yCoordinate": 55,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481736,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 762,
+                "yCoordinate": 166,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/24fd75b4-a638-4ac9-93bd-76ff1c1ebc27.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/92dafda8-a051-4b04-9590-1fef173cf110.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483420,
+        "versionId": -2147348907,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 650,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Athabasca River",
+                "description": "Athabasca River",
+                "mapImageUid": "24fd75b4-a638-4ac9-93bd-76ff1c1ebc27",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Rivi\u00e8re Athabasca",
+                "description": "Rivi\u00e8re Athabasca",
+                "mapImageUid": "92dafda8-a051-4b04-9590-1fef173cf110",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483172,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 215,
+                    "yCoordinate": 331,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 241,
+                "yCoordinate": 318,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 782,
+                "height": 586,
+                "resourceId": -2147483162,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 220,
+                    "yCoordinate": 221,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 9,
+                "yCoordinate": 5,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481735,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 318,
+                "yCoordinate": 426,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/6757c808-8775-4503-a500-1cd1c625864a.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/af048ac0-70c0-4304-83fa-95437f0d07a0.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483418,
+        "versionId": -2147348905,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Fiddle River",
+                "description": "Fiddle River Trail",
+                "mapImageUid": "6757c808-8775-4503-a500-1cd1c625864a",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Rivi\u00e8re-Fiddle",
+                "description": "Sentier de la Rivi\u00e8re-Fiddle",
+                "mapImageUid": "af048ac0-70c0-4304-83fa-95437f0d07a0",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483253,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 505,
+                    "yCoordinate": 461,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 643,
+                "yCoordinate": 451,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483211,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 161,
+                    "yCoordinate": 279,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 249,
+                "yCoordinate": 292,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483204,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 81,
+                    "yCoordinate": 200,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 139,
+                "yCoordinate": 213,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483166,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 308,
+                    "yCoordinate": 347,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 394,
+                "yCoordinate": 360,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 794,
+                "height": 595,
+                "resourceId": -2147483156,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 33,
+                    "yCoordinate": 148,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 4,
+                "yCoordinate": 46,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 789,
+                "height": 591,
+                "resourceId": -2147483150,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 679,
+                    "yCoordinate": 531,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 7,
+                "yCoordinate": 29,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481715,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 20,
+                "yCoordinate": 105,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481714,
+                "legendItemType": 99,
+                "iconType": 17,
+                "xCoordinate": 20,
+                "yCoordinate": 125,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481713,
+                "legendItemType": 355,
+                "iconType": 17,
+                "xCoordinate": 20,
+                "yCoordinate": 85,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481712,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 73,
+                "yCoordinate": 105,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481711,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 722,
+                "yCoordinate": 511,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481710,
+                "legendItemType": 265,
+                "iconType": 17,
+                "xCoordinate": 73,
+                "yCoordinate": 85,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481709,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 702,
+                "yCoordinate": 511,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481708,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 53,
+                "yCoordinate": 85,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481707,
+                "legendItemType": 646,
+                "iconType": 17,
+                "xCoordinate": 53,
+                "yCoordinate": 105,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/aaf9f783-afad-4168-be5a-84268e7e125e.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/cdda624a-2a62-417f-9c7a-3ea5685cf422.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483417,
+        "versionId": -2147348904,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Chaba Trail",
+                "description": "Chaba Trail",
+                "mapImageUid": "aaf9f783-afad-4168-be5a-84268e7e125e",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Sentier Chaba",
+                "description": "Sentier Chaba",
+                "mapImageUid": "cdda624a-2a62-417f-9c7a-3ea5685cf422",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483234,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 439,
+                    "yCoordinate": 416,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 428,
+                "yCoordinate": 429,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483224,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 436,
+                    "yCoordinate": 254,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 421,
+                "yCoordinate": 267,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483194,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 179,
+                    "yCoordinate": 530,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 281,
+                "yCoordinate": 552,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 789,
+                "height": 591,
+                "resourceId": -2147483159,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 453,
+                    "yCoordinate": 179,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 5,
+                "yCoordinate": 87,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481706,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 204,
+                "yCoordinate": 589,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481705,
+                "legendItemType": 265,
+                "iconType": 17,
+                "xCoordinate": 469,
+                "yCoordinate": 115,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481704,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 489,
+                "yCoordinate": 115,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481703,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 489,
+                "yCoordinate": 135,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481702,
+                "legendItemType": 177,
+                "iconType": 17,
+                "xCoordinate": 469,
+                "yCoordinate": 135,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481701,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 149,
+                "yCoordinate": 545,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481700,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 249,
+                "yCoordinate": 571,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481699,
+                "legendItemType": 649,
+                "iconType": 16,
+                "xCoordinate": 356,
+                "yCoordinate": 546,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481698,
+                "legendItemType": 649,
+                "iconType": 16,
+                "xCoordinate": 407,
+                "yCoordinate": 433,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/bb7bc3f2-f31a-46ee-a4b6-3c539c363a84.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/c4d3847c-da36-44c6-a6f3-c468f944a909.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483416,
+        "versionId": -2147348903,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 900,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Fryatt Valley",
+                "description": "Fryatt Valley Trail",
+                "mapImageUid": "bb7bc3f2-f31a-46ee-a4b6-3c539c363a84",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Vall\u00e9e-du-Fryatt",
+                "description": "Sentier de la Vall\u00e9e-du-Fryatt",
+                "mapImageUid": "c4d3847c-da36-44c6-a6f3-c468f944a909",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483214,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 408,
+                    "yCoordinate": 604,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 474,
+                "yCoordinate": 619,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483212,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 405,
+                    "yCoordinate": 759,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 392,
+                "yCoordinate": 754,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483203,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 490,
+                    "yCoordinate": 420,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 577,
+                "yCoordinate": 438,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 788,
+                "height": 591,
+                "resourceId": -2147483144,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 262,
+                    "yCoordinate": 157,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 1,
+                "yCoordinate": 50,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481697,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 321,
+                "yCoordinate": 178,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481696,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 352,
+                "yCoordinate": 93,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481695,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 376,
+                "yCoordinate": 23,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481694,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 459,
+                "yCoordinate": 29,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481693,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 224,
+                "yCoordinate": 361,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481692,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 530,
+                "yCoordinate": 546,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481691,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 485,
+                "yCoordinate": 258,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481690,
+                "legendItemType": 645,
+                "iconType": 17,
+                "xCoordinate": 439,
+                "yCoordinate": 29,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481689,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 447,
+                "yCoordinate": 167,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481688,
+                "legendItemType": 28,
+                "iconType": 17,
+                "xCoordinate": 506,
+                "yCoordinate": 277,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481687,
+                "legendItemType": 199,
+                "iconType": 16,
+                "xCoordinate": 577,
+                "yCoordinate": 454,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/90e2166d-9495-4155-8c50-c65e1820da1f.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/687eb5dd-d35f-41f6-96db-c0f1bb760cf4.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483415,
+        "versionId": -2147348902,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Geraldine Lakes",
+                "description": "Geraldine Lakes Trail",
+                "mapImageUid": "90e2166d-9495-4155-8c50-c65e1820da1f",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Lacs-Geraldine",
+                "description": "Sentier des Lacs-Geraldine",
+                "mapImageUid": "687eb5dd-d35f-41f6-96db-c0f1bb760cf4",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483184,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 153,
+                    "yCoordinate": 299,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 294,
+                "yCoordinate": 316,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 787,
+                "height": 590,
+                "resourceId": -2147483155,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 266,
+                    "yCoordinate": 172,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 5,
+                "yCoordinate": 11,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481686,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 362,
+                "yCoordinate": 150,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481685,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 385,
+                "yCoordinate": 86,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481684,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 405,
+                "yCoordinate": 30,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481683,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 484,
+                "yCoordinate": 217,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481682,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 476,
+                "yCoordinate": 31,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481681,
+                "legendItemType": 19,
+                "iconType": 17,
+                "xCoordinate": 534,
+                "yCoordinate": 442,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481680,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 564,
+                "yCoordinate": 359,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481679,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 472,
+                "yCoordinate": 526,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481678,
+                "legendItemType": 645,
+                "iconType": 17,
+                "xCoordinate": 456,
+                "yCoordinate": 31,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481677,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 463,
+                "yCoordinate": 153,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481676,
+                "legendItemType": 28,
+                "iconType": 17,
+                "xCoordinate": 509,
+                "yCoordinate": 230,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481675,
+                "legendItemType": 199,
+                "iconType": 16,
+                "xCoordinate": 556,
+                "yCoordinate": 380,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/79b957a3-f3c8-4c2f-85a6-10531efd24fb.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/e30398e5-5bb2-460a-8481-5c453aee284e.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483414,
+        "versionId": -2147348901,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Jacques Lake",
+                "description": "Jacques Lake Trail",
+                "mapImageUid": "79b957a3-f3c8-4c2f-85a6-10531efd24fb",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Lac-Jacques",
+                "description": "Sentier du Lac-Jacques",
+                "mapImageUid": "e30398e5-5bb2-460a-8481-5c453aee284e",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483190,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 233,
+                    "yCoordinate": 225,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 329,
+                "yCoordinate": 237,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 788,
+                "height": 591,
+                "resourceId": -2147483157,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 397,
+                    "yCoordinate": 598,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 7,
+                "yCoordinate": 47,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481674,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 107,
+                "yCoordinate": 460,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481673,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 380,
+                "yCoordinate": 573,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481672,
+                "legendItemType": 355,
+                "iconType": 17,
+                "xCoordinate": 343,
+                "yCoordinate": 526,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481671,
+                "legendItemType": 32,
+                "iconType": 17,
+                "xCoordinate": 363,
+                "yCoordinate": 526,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481670,
+                "legendItemType": 177,
+                "iconType": 17,
+                "xCoordinate": 184,
+                "yCoordinate": 474,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/ebc63be1-63c1-46df-bda5-a48929a0ad01.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/dcecae8f-f565-4e34-8456-ad37120ea1eb.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483413,
+        "versionId": -2147348900,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Maligne Lake",
+                "description": "Maligne Lake",
+                "mapImageUid": "ebc63be1-63c1-46df-bda5-a48929a0ad01",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Lac-Maligne",
+                "description": "Lac-Maligne",
+                "mapImageUid": "dcecae8f-f565-4e34-8456-ad37120ea1eb",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483273,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 484,
+                    "yCoordinate": 338,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 470,
+                "yCoordinate": 343,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483262,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 478,
+                    "yCoordinate": 534,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 628,
+                "yCoordinate": 540,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483199,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 101,
+                    "yCoordinate": 171,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 243,
+                "yCoordinate": 181,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481669,
+                "legendItemType": 355,
+                "iconType": 17,
+                "xCoordinate": 533,
+                "yCoordinate": 502,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481668,
+                "legendItemType": 355,
+                "iconType": 17,
+                "xCoordinate": 426,
+                "yCoordinate": 278,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481667,
+                "legendItemType": 355,
+                "iconType": 17,
+                "xCoordinate": 320,
+                "yCoordinate": 205,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481666,
+                "legendItemType": 355,
+                "iconType": 17,
+                "xCoordinate": 245,
+                "yCoordinate": 199,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481665,
+                "legendItemType": 177,
+                "iconType": 17,
+                "xCoordinate": 491,
+                "yCoordinate": 365,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481664,
+                "legendItemType": 32,
+                "iconType": 17,
+                "xCoordinate": 207,
+                "yCoordinate": 117,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481663,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 183,
+                "yCoordinate": 112,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481662,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 225,
+                "yCoordinate": 81,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481661,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 163,
+                "yCoordinate": 112,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481660,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 245,
+                "yCoordinate": 81,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481659,
+                "legendItemType": 265,
+                "iconType": 17,
+                "xCoordinate": 236,
+                "yCoordinate": 61,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481658,
+                "legendItemType": 338,
+                "iconType": 17,
+                "xCoordinate": 207,
+                "yCoordinate": 137,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/b6824e7c-f764-400c-91e1-8ac609153893.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/7eeabb46-1253-49b1-a2ff-58535bfefca6.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483411,
+        "versionId": -2147348898,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "North Boundary and Celestine Lake",
+                "description": "North Boundary and Celestine Lake Trails",
+                "mapImageUid": "b6824e7c-f764-400c-91e1-8ac609153893",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Limite Nord et du Lac-Celestine",
+                "description": "Sentier de la Limite Nord et du Lac-Celestine",
+                "mapImageUid": "7eeabb46-1253-49b1-a2ff-58535bfefca6",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483288,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 135,
+                    "yCoordinate": 337,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 124,
+                "yCoordinate": 331,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483285,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 596,
+                    "yCoordinate": 167,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 582,
+                "yCoordinate": 170,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483284,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 186,
+                    "yCoordinate": 395,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 174,
+                "yCoordinate": 391,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483280,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 606,
+                    "yCoordinate": 136,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 596,
+                "yCoordinate": 148,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483277,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 3,
+                    "yCoordinate": 154,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 16,
+                "yCoordinate": 169,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483274,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 434,
+                    "yCoordinate": 25,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 424,
+                "yCoordinate": 37,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483270,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 176,
+                    "yCoordinate": 166,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 166,
+                "yCoordinate": 178,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483266,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 168,
+                    "yCoordinate": 84,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 263,
+                "yCoordinate": 96,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483263,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 60,
+                    "yCoordinate": 126,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 50,
+                "yCoordinate": 138,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483260,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 694,
+                    "yCoordinate": 282,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 680,
+                "yCoordinate": 291,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483249,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 356,
+                    "yCoordinate": 126,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 452,
+                "yCoordinate": 136,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483236,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 29,
+                    "yCoordinate": 327,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 105,
+                "yCoordinate": 339,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483228,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 208,
+                    "yCoordinate": 226,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 306,
+                "yCoordinate": 236,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483216,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 50,
+                    "yCoordinate": 190,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 38,
+                "yCoordinate": 186,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483209,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 144,
+                    "yCoordinate": 247,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 218,
+                "yCoordinate": 244,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483208,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 53,
+                    "yCoordinate": 212,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 41,
+                "yCoordinate": 208,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483201,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 74,
+                    "yCoordinate": 277,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 62,
+                "yCoordinate": 273,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483200,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 485,
+                    "yCoordinate": 165,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 495,
+                "yCoordinate": 179,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483198,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 98,
+                    "yCoordinate": 101,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 88,
+                "yCoordinate": 113,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483189,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 259,
+                    "yCoordinate": 173,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 357,
+                "yCoordinate": 169,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483180,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 657,
+                    "yCoordinate": 335,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 760,
+                "yCoordinate": 345,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483175,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 491,
+                    "yCoordinate": 237,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 621,
+                "yCoordinate": 246,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483174,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 336,
+                    "yCoordinate": 199,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 416,
+                "yCoordinate": 189,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483173,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 660,
+                    "yCoordinate": 239,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 647,
+                "yCoordinate": 250,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483170,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 464,
+                    "yCoordinate": 198,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 474,
+                "yCoordinate": 188,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483168,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 402,
+                    "yCoordinate": 78,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 392,
+                "yCoordinate": 90,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483165,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 628,
+                    "yCoordinate": 191,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 616,
+                "yCoordinate": 189,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 792,
+                "height": 594,
+                "resourceId": -2147483161,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 620,
+                    "yCoordinate": 392,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 3,
+                "yCoordinate": 14,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 794,
+                "height": 595,
+                "resourceId": -2147483149,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 75,
+                    "yCoordinate": 471,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2,
+                "yCoordinate": 24,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 790,
+                "height": 592,
+                "resourceId": -2147483145,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 507,
+                    "yCoordinate": 80,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 8,
+                "yCoordinate": 5,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481655,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 611,
+                "yCoordinate": 69,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481654,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 751,
+                "yCoordinate": 378,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481653,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 49,
+                "yCoordinate": 451,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481652,
+                "legendItemType": 158,
+                "iconType": 17,
+                "xCoordinate": 49,
+                "yCoordinate": 471,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481651,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 20,
+                "yCoordinate": 468,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481650,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 45,
+                "yCoordinate": 519,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481649,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 656,
+                "yCoordinate": 59,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/4b5afc4e-9d96-4d5e-bab2-cfe5e754ee56.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/4607b035-e276-45a2-a5a0-082638ade02a.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483410,
+        "versionId": -2147348897,
+        "versionDate": "2023-09-30T03:10:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Saturday Night Lake Loop",
+                "description": "Saturday Night Lake Loop Trail",
+                "mapImageUid": "4b5afc4e-9d96-4d5e-bab2-cfe5e754ee56",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Boucle du Lac-Saturday Night",
+                "description": "Sentier de la boucle du Lac-Saturday Night",
+                "mapImageUid": "4607b035-e276-45a2-a5a0-082638ade02a",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483269,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 25,
+                    "yCoordinate": 202,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 123,
+                "yCoordinate": 214,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483226,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 370,
+                    "yCoordinate": 172,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 358,
+                "yCoordinate": 186,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 787,
+                "height": 590,
+                "resourceId": -2147483151,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 635,
+                    "yCoordinate": 360,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 10,
+                "yCoordinate": 29,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481648,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 753,
+                "yCoordinate": 359,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/839db515-75ea-4e52-a940-7f7ddc094fec.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/af996095-42f1-42ab-b553-bd9212fdc02b.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483412,
+        "versionId": -2147343886,
+        "versionDate": "2024-01-13T04:54:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Maligne Pass",
+                "description": "Maligne Pass Trail",
+                "mapImageUid": "839db515-75ea-4e52-a940-7f7ddc094fec",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Col Maligne",
+                "description": "Sentier du Col Maligne",
+                "mapImageUid": "af996095-42f1-42ab-b553-bd9212fdc02b",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483261,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 392,
+                    "yCoordinate": 304,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 474,
+                "yCoordinate": 315,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483251,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 617,
+                    "yCoordinate": 610,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 712,
+                "yCoordinate": 621,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483240,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 284,
+                    "yCoordinate": 101,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 397,
+                "yCoordinate": 113,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483232,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 517,
+                    "yCoordinate": 480,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 613,
+                "yCoordinate": 491,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481657,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 687,
+                "yCoordinate": 712,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481656,
+                "legendItemType": 209,
+                "iconType": 0,
+                "xCoordinate": 707,
+                "yCoordinate": 712,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/eab7ebd1-c209-45c2-9fb3-e1f64e0710cf.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/b70cbab1-2b67-40d5-bed0-f9cdd4b0bd39.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483408,
+        "versionId": -2147340720,
+        "versionDate": "2024-10-29T03:00:00Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 900,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "South Boundary",
+                "description": "South Boundary Trail",
+                "mapImageUid": "eab7ebd1-c209-45c2-9fb3-e1f64e0710cf",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Limite Sud",
+                "description": "Sentier de la Limite Sud",
+                "mapImageUid": "b70cbab1-2b67-40d5-bed0-f9cdd4b0bd39",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483287,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 604,
+                    "yCoordinate": 443,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 696,
+                "yCoordinate": 437,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483281,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 631,
+                    "yCoordinate": 359,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 716,
+                "yCoordinate": 349,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483265,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 623,
+                    "yCoordinate": 557,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 678,
+                "yCoordinate": 551,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483248,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 199,
+                    "yCoordinate": 137,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 332,
+                "yCoordinate": 146,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483237,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 474,
+                    "yCoordinate": 299,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 555,
+                "yCoordinate": 294,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483221,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 314,
+                    "yCoordinate": 168,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 415,
+                "yCoordinate": 164,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483188,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 542,
+                    "yCoordinate": 343,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 630,
+                "yCoordinate": 337,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483183,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 387,
+                    "yCoordinate": 218,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 460,
+                "yCoordinate": 212,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483171,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 287,
+                    "yCoordinate": 192,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 432,
+                "yCoordinate": 186,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 789,
+                "height": 591,
+                "resourceId": -2147483163,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 435,
+                    "yCoordinate": 40,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 8,
+                "yCoordinate": 22,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481631,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 91,
+                "yCoordinate": 92,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481630,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 73,
+                "yCoordinate": 13,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481629,
+                "legendItemType": 158,
+                "iconType": 17,
+                "xCoordinate": 453,
+                "yCoordinate": 822,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481628,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 564,
+                "yCoordinate": 859,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481627,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 480,
+                "yCoordinate": 828,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481626,
+                "legendItemType": 144,
+                "iconType": 17,
+                "xCoordinate": 578,
+                "yCoordinate": 746,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481625,
+                "legendItemType": 144,
+                "iconType": 17,
+                "xCoordinate": 620,
+                "yCoordinate": 636,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481624,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 600,
+                "yCoordinate": 636,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481623,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 559,
+                "yCoordinate": 767,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481622,
+                "legendItemType": 18,
+                "iconType": 17,
+                "xCoordinate": 540,
+                "yCoordinate": 792,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481621,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 446,
+                "yCoordinate": 62,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481620,
+                "legendItemType": 645,
+                "iconType": 17,
+                "xCoordinate": 499,
+                "yCoordinate": 864,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481619,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 500,
+                "yCoordinate": 828,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481618,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 131,
+                "yCoordinate": 438,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/c1ac3769-52ff-48f5-92a8-604d33559d42.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/70a39f7a-7aa6-45be-8f02-5201fdcdb942.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483404,
+        "versionId": -2147337806,
+        "versionDate": "2024-11-14T04:00:00.003Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 600,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Random Camping",
+                "description": "Random Camping",
+                "mapImageUid": "c1ac3769-52ff-48f5-92a8-604d33559d42",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Camping (en tous lieux)",
+                "description": "Camping (en tous lieux)",
+                "mapImageUid": "70a39f7a-7aa6-45be-8f02-5201fdcdb942",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483286,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 255,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483283,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 193,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 197,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483279,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 565,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 569,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483276,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 255,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483275,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 131,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 135,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483271,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 441,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 445,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483268,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 224,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 228,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483267,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 503,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 507,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483264,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 379,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 383,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483259,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 410,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 414,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483255,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 162,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 166,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483252,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 472,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 476,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483247,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 534,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 538,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483246,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 162,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 166,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483245,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 131,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 135,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483244,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 286,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 290,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483239,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 379,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 383,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483235,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 441,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 445,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483231,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 286,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 290,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483229,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 534,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 538,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483227,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 348,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 352,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483220,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 193,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 197,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483218,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 193,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 197,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483217,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 224,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 228,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483215,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 317,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 321,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483213,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 348,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 352,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483210,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 224,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 228,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483206,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 472,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 476,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483196,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 317,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 321,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483195,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 255,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483177,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 162,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 166,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483176,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 348,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 352,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483169,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 503,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 507,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483164,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 566,
+                    "yCoordinate": 286,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 552,
+                "yCoordinate": 290,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147471820,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 6,
+                    "xCoordinate": 335,
+                    "yCoordinate": 132,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 135,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147471788,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 335,
+                    "yCoordinate": 409,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 321,
+                "yCoordinate": 414,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147471787,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 85,
+                    "yCoordinate": 316,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 71,
+                "yCoordinate": 321,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [],
+        "mapLegendItems": [],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/7e1251d8-9ce5-4c1a-b533-bfd2721bef97.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/aa0318dd-eb8d-42ff-98de-98296642cb23.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483419,
+        "versionId": -2147332896,
+        "versionDate": "2025-01-10T18:08:00.01Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Brazeau",
+                "description": "Brazeau Trail",
+                "mapImageUid": "7e1251d8-9ce5-4c1a-b533-bfd2721bef97",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Brazeau",
+                "description": "Sentier Brazeau",
+                "mapImageUid": "aa0318dd-eb8d-42ff-98de-98296642cb23",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483272,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 433,
+                    "yCoordinate": 553,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 539,
+                "yCoordinate": 555,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483258,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 478,
+                    "yCoordinate": 210,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 530,
+                "yCoordinate": 226,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483254,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 519,
+                    "yCoordinate": 358,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 671,
+                "yCoordinate": 373,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483243,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 619,
+                    "yCoordinate": 157,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 646,
+                "yCoordinate": 173,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483241,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 609,
+                    "yCoordinate": 556,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 709,
+                "yCoordinate": 545,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483238,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 592,
+                    "yCoordinate": 231,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 685,
+                "yCoordinate": 225,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483223,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 192,
+                    "yCoordinate": 20,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 183,
+                "yCoordinate": 37,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483207,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 634,
+                    "yCoordinate": 184,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 722,
+                "yCoordinate": 200,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483205,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 366,
+                    "yCoordinate": 166,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 358,
+                "yCoordinate": 180,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483187,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 261,
+                    "yCoordinate": 76,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 250,
+                "yCoordinate": 90,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483181,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 497,
+                    "yCoordinate": 481,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 583,
+                "yCoordinate": 488,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483179,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 294,
+                    "yCoordinate": 220,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 389,
+                "yCoordinate": 213,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 792,
+                "height": 594,
+                "resourceId": -2147483143,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 486,
+                    "yCoordinate": 787,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 5,
+                "yCoordinate": 127,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481734,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 47,
+                "yCoordinate": 23,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481733,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 74,
+                "yCoordinate": 46,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481732,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 564,
+                "yCoordinate": 681,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481731,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 351,
+                "yCoordinate": 656,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481730,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 462,
+                "yCoordinate": 612,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481729,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 427,
+                "yCoordinate": 606,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481728,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 547,
+                "yCoordinate": 457,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481727,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 97,
+                "yCoordinate": 51,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481726,
+                "legendItemType": 645,
+                "iconType": 17,
+                "xCoordinate": 489,
+                "yCoordinate": 693,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481725,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 462,
+                "yCoordinate": 632,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481724,
+                "legendItemType": 45,
+                "iconType": 17,
+                "xCoordinate": 427,
+                "yCoordinate": 626,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481723,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 640,
+                "yCoordinate": 202,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481722,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 285,
+                "yCoordinate": 596,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481721,
+                "legendItemType": 0,
+                "iconType": 17,
+                "xCoordinate": 385,
+                "yCoordinate": 616,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481720,
+                "legendItemType": 265,
+                "iconType": 17,
+                "xCoordinate": 345,
+                "yCoordinate": 616,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481719,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 365,
+                "yCoordinate": 616,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481718,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 325,
+                "yCoordinate": 616,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481717,
+                "legendItemType": 99,
+                "iconType": 17,
+                "xCoordinate": 325,
+                "yCoordinate": 596,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481716,
+                "legendItemType": 158,
+                "iconType": 17,
+                "xCoordinate": 305,
+                "yCoordinate": 596,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/dee15ef1-53b0-46f5-8c1e-5e0849b4fbfa.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/c5d8966e-9e95-4c61-849b-27addb14b9dd.png"
+        },
+        "mapLinks": [
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Athabasca Pass"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Col Athabasca"
+                    }
+                ],
+                "childMapId": -2147483421,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 299,
+                    "yCoordinate": 439,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 199,
+                        "yCoordinate": 470
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 418,
+                        "yCoordinate": 471
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 490,
+                        "yCoordinate": 362
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 467,
+                        "yCoordinate": 355
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 447,
+                        "yCoordinate": 390
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 197,
+                        "yCoordinate": 391
+                    }
+                ],
+                "xCoordinate": 421,
+                "yCoordinate": 420,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Athabasca River"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Rivi\u00e8re Athabasca"
+                    }
+                ],
+                "childMapId": -2147483420,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 259,
+                    "yCoordinate": 142,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 243,
+                        "yCoordinate": 188
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 388,
+                        "yCoordinate": 188
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 426,
+                        "yCoordinate": 231
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 468,
+                        "yCoordinate": 191
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 445,
+                        "yCoordinate": 168
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 391,
+                        "yCoordinate": 104
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 285,
+                        "yCoordinate": 101
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 164,
+                        "yCoordinate": 186
+                    }
+                ],
+                "xCoordinate": 402,
+                "yCoordinate": 177,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Brazeau"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Brazeau"
+                    }
+                ],
+                "childMapId": -2147483419,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 640,
+                    "yCoordinate": 467,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 591,
+                        "yCoordinate": 488
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 731,
+                        "yCoordinate": 489
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 761,
+                        "yCoordinate": 488
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 763,
+                        "yCoordinate": 473
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 763,
+                        "yCoordinate": 458
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 763,
+                        "yCoordinate": 448
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 731,
+                        "yCoordinate": 448
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 720,
+                        "yCoordinate": 448
+                    },
+                    {
+                        "order": 8,
+                        "xCoordinate": 577,
+                        "yCoordinate": 445
+                    },
+                    {
+                        "order": 9,
+                        "xCoordinate": 551,
+                        "yCoordinate": 488
+                    }
+                ],
+                "xCoordinate": 724,
+                "yCoordinate": 452,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Fiddle River"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Rivi\u00e8re-Fiddle"
+                    }
+                ],
+                "childMapId": -2147483418,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 541,
+                    "yCoordinate": 110,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 543,
+                        "yCoordinate": 154
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 692,
+                        "yCoordinate": 151
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 690,
+                        "yCoordinate": 76
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 515,
+                        "yCoordinate": 79
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 465,
+                        "yCoordinate": 148
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 452,
+                        "yCoordinate": 172
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 484,
+                        "yCoordinate": 197
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 501,
+                        "yCoordinate": 205
+                    }
+                ],
+                "xCoordinate": 492,
+                "yCoordinate": 166,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Chaba Trail"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Sentier Chaba"
+                    }
+                ],
+                "childMapId": -2147483417,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 532,
+                    "yCoordinate": 514,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 547,
+                        "yCoordinate": 396
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 490,
+                        "yCoordinate": 561
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 660,
+                        "yCoordinate": 563
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 658,
+                        "yCoordinate": 534
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 681,
+                        "yCoordinate": 534
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 696,
+                        "yCoordinate": 534
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 695,
+                        "yCoordinate": 518
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 695,
+                        "yCoordinate": 508
+                    },
+                    {
+                        "order": 8,
+                        "xCoordinate": 695,
+                        "yCoordinate": 491
+                    },
+                    {
+                        "order": 9,
+                        "xCoordinate": 593,
+                        "yCoordinate": 492
+                    },
+                    {
+                        "order": 10,
+                        "xCoordinate": 545,
+                        "yCoordinate": 493
+                    },
+                    {
+                        "order": 11,
+                        "xCoordinate": 583,
+                        "yCoordinate": 430
+                    },
+                    {
+                        "order": 12,
+                        "xCoordinate": 582,
+                        "yCoordinate": 408
+                    },
+                    {
+                        "order": 13,
+                        "xCoordinate": 577,
+                        "yCoordinate": 398
+                    }
+                ],
+                "xCoordinate": 563,
+                "yCoordinate": 429,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Fryatt Valley"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Vall\u00e9e-du-Fryatt"
+                    }
+                ],
+                "childMapId": -2147483416,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 353,
+                    "yCoordinate": 554,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 514,
+                        "yCoordinate": 393
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 504,
+                        "yCoordinate": 419
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 454,
+                        "yCoordinate": 534
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 272,
+                        "yCoordinate": 534
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 272,
+                        "yCoordinate": 589
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 479,
+                        "yCoordinate": 589
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 540,
+                        "yCoordinate": 419
+                    }
+                ],
+                "xCoordinate": 516,
+                "yCoordinate": 421,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Geraldine Lakes"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Lacs-Geraldine"
+                    }
+                ],
+                "childMapId": -2147483415,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 338,
+                    "yCoordinate": 495,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 274,
+                        "yCoordinate": 530
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 451,
+                        "yCoordinate": 529
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 476,
+                        "yCoordinate": 476
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 501,
+                        "yCoordinate": 416
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 517,
+                        "yCoordinate": 382
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 493,
+                        "yCoordinate": 363
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 484,
+                        "yCoordinate": 381
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 420,
+                        "yCoordinate": 474
+                    },
+                    {
+                        "order": 8,
+                        "xCoordinate": 344,
+                        "yCoordinate": 476
+                    },
+                    {
+                        "order": 9,
+                        "xCoordinate": 274,
+                        "yCoordinate": 476
+                    }
+                ],
+                "xCoordinate": 491,
+                "yCoordinate": 391,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Jacques Lake"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Lac-Jacques"
+                    }
+                ],
+                "childMapId": -2147483414,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 574,
+                    "yCoordinate": 176,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 502,
+                        "yCoordinate": 239
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 503,
+                        "yCoordinate": 257
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 521,
+                        "yCoordinate": 263
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 539,
+                        "yCoordinate": 256
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 552,
+                        "yCoordinate": 242
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 569,
+                        "yCoordinate": 219
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 726,
+                        "yCoordinate": 218
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 726,
+                        "yCoordinate": 154
+                    },
+                    {
+                        "order": 8,
+                        "xCoordinate": 547,
+                        "yCoordinate": 158
+                    },
+                    {
+                        "order": 9,
+                        "xCoordinate": 502,
+                        "yCoordinate": 209
+                    }
+                ],
+                "xCoordinate": 523,
+                "yCoordinate": 240,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Maligne Lake"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Lac-Maligne"
+                    }
+                ],
+                "childMapId": -2147483413,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 650,
+                    "yCoordinate": 370,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 591,
+                        "yCoordinate": 341
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 597,
+                        "yCoordinate": 355
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 638,
+                        "yCoordinate": 396
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 798,
+                        "yCoordinate": 394
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 799,
+                        "yCoordinate": 340
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 685,
+                        "yCoordinate": 341
+                    }
+                ],
+                "xCoordinate": 611,
+                "yCoordinate": 343,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Maligne Pass"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Col Maligne"
+                    }
+                ],
+                "childMapId": -2147483412,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 647,
+                    "yCoordinate": 423,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 587,
+                        "yCoordinate": 445
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 798,
+                        "yCoordinate": 444
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 797,
+                        "yCoordinate": 397
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 584,
+                        "yCoordinate": 399
+                    }
+                ],
+                "xCoordinate": 615,
+                "yCoordinate": 403,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "North Boundary and Celestine Lake"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Limite Nord et du Lac-Celestine"
+                    }
+                ],
+                "childMapId": -2147483411,
+                "localizationPoint": {
+                    "justification": 4,
+                    "xCoordinate": 60,
+                    "yCoordinate": 49,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 5,
+                        "yCoordinate": 127
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 243,
+                        "yCoordinate": 126
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 286,
+                        "yCoordinate": 96
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 329,
+                        "yCoordinate": 65
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 328,
+                        "yCoordinate": 35
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 5,
+                        "yCoordinate": 35
+                    }
+                ],
+                "xCoordinate": 258,
+                "yCoordinate": 94,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Saturday Night Lake Loop"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Boucle du Lac-Saturday Night"
+                    }
+                ],
+                "childMapId": -2147483410,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 148,
+                    "yCoordinate": 218,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 106,
+                        "yCoordinate": 283
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 417,
+                        "yCoordinate": 285
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 416,
+                        "yCoordinate": 223
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 388,
+                        "yCoordinate": 192
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 106,
+                        "yCoordinate": 191
+                    }
+                ],
+                "xCoordinate": 375,
+                "yCoordinate": 259,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Skyline"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Skyline"
+                    }
+                ],
+                "childMapId": -2147483409,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 571,
+                    "yCoordinate": 227,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 494,
+                        "yCoordinate": 316
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 537,
+                        "yCoordinate": 316
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 575,
+                        "yCoordinate": 261
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 690,
+                        "yCoordinate": 258
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 690,
+                        "yCoordinate": 220
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 570,
+                        "yCoordinate": 221
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 550,
+                        "yCoordinate": 249
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 526,
+                        "yCoordinate": 274
+                    },
+                    {
+                        "order": 8,
+                        "xCoordinate": 486,
+                        "yCoordinate": 275
+                    }
+                ],
+                "xCoordinate": 504,
+                "yCoordinate": 294,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "South Boundary"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Limite Sud"
+                    }
+                ],
+                "childMapId": -2147483408,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 618,
+                    "yCoordinate": 319,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 590,
+                        "yCoordinate": 339
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 797,
+                        "yCoordinate": 339
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 798,
+                        "yCoordinate": 288
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 796,
+                        "yCoordinate": 260
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 742,
+                        "yCoordinate": 261
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 678,
+                        "yCoordinate": 261
+                    },
+                    {
+                        "order": 6,
+                        "xCoordinate": 635,
+                        "yCoordinate": 262
+                    },
+                    {
+                        "order": 7,
+                        "xCoordinate": 609,
+                        "yCoordinate": 263
+                    },
+                    {
+                        "order": 8,
+                        "xCoordinate": 583,
+                        "yCoordinate": 263
+                    },
+                    {
+                        "order": 9,
+                        "xCoordinate": 585,
+                        "yCoordinate": 290
+                    },
+                    {
+                        "order": 10,
+                        "xCoordinate": 587,
+                        "yCoordinate": 309
+                    }
+                ],
+                "xCoordinate": 629,
+                "yCoordinate": 296,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            },
+            {
+                "resourceLocationId": -2147483592,
+                "transactionLocationId": -2147483628,
+                "localizations": [
+                    {
+                        "cultureName": "en-CA",
+                        "title": "Tonquin Valley"
+                    },
+                    {
+                        "cultureName": "fr-CA",
+                        "title": "Vall\u00e9e-Tonquin"
+                    }
+                ],
+                "childMapId": -2147483407,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 261,
+                    "yCoordinate": 336,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "areaPoints": [
+                    {
+                        "order": 0,
+                        "xCoordinate": 192,
+                        "yCoordinate": 365
+                    },
+                    {
+                        "order": 1,
+                        "xCoordinate": 450,
+                        "yCoordinate": 366
+                    },
+                    {
+                        "order": 2,
+                        "xCoordinate": 479,
+                        "yCoordinate": 318
+                    },
+                    {
+                        "order": 3,
+                        "xCoordinate": 430,
+                        "yCoordinate": 284
+                    },
+                    {
+                        "order": 4,
+                        "xCoordinate": 398,
+                        "yCoordinate": 310
+                    },
+                    {
+                        "order": 5,
+                        "xCoordinate": 191,
+                        "yCoordinate": 312
+                    }
+                ],
+                "xCoordinate": 398,
+                "yCoordinate": 316,
+                "registrationActions": [],
+                "transactionLocationTypes": [],
+                "fontSize": 14,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0,
+                "font": 0
+            }
+        ],
+        "parentMap": {
+            "mapId": -2147483463,
+            "resourceLocationId": null
+        },
+        "mapId": -2147483422,
+        "versionId": -2147331690,
+        "versionDate": "2025-03-21T03:00:00.007Z",
+        "mapType": 3,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 600,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Backcountry Reservations",
+                "description": "Jasper - Backcountry Reservations",
+                "mapImageUid": "dee15ef1-53b0-46f5-8c1e-5e0849b4fbfa",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "R\u00e9servations en arri\u00e8re-pays",
+                "description": "Jasper - R\u00e9servations en arri\u00e8re-pays",
+                "mapImageUid": "c5d8966e-9e95-4c61-849b-27addb14b9dd",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [],
+        "mapAccessPointResources": [
+            {
+                "width": 714,
+                "height": 535,
+                "resourceId": -2147483154,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 126,
+                    "yCoordinate": 422,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 77,
+                "yCoordinate": 52,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 686,
+                "height": 514,
+                "resourceId": -2147483152,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 121,
+                    "yCoordinate": 426,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 102,
+                "yCoordinate": 57,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 799,
+                "height": 599,
+                "resourceId": -2147483147,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 13,
+                    "yCoordinate": 5,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 5,
+                "yCoordinate": 1,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapLegendItems": [],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/66c121a7-a59b-4338-9aa7-4bcf029cb893.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/84e045de-6ae2-46da-9d1b-60e067b469a6.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483407,
+        "versionId": -2147327600,
+        "versionDate": "2025-10-09T03:00:00.1Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Tonquin Valley",
+                "description": "Tonquin Valley Trail",
+                "mapImageUid": "66c121a7-a59b-4338-9aa7-4bcf029cb893",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Vall\u00e9e-Tonquin",
+                "description": "Sentier de la Vall\u00e9e-Tonquin",
+                "mapImageUid": "84e045de-6ae2-46da-9d1b-60e067b469a6",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483289,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 379,
+                    "yCoordinate": 450,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 367,
+                "yCoordinate": 460,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483278,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 224,
+                    "yCoordinate": 244,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 212,
+                "yCoordinate": 254,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483257,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 258,
+                    "yCoordinate": 440,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 246,
+                "yCoordinate": 450,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483233,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 493,
+                    "yCoordinate": 234,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 481,
+                "yCoordinate": 244,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483219,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 513,
+                    "yCoordinate": 418,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 501,
+                "yCoordinate": 428,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483197,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 300,
+                    "yCoordinate": 389,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 288,
+                "yCoordinate": 399,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483186,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 236,
+                    "yCoordinate": 345,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 224,
+                "yCoordinate": 355,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483182,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 121,
+                    "yCoordinate": 527,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 234,
+                "yCoordinate": 515,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 788,
+                "height": 591,
+                "resourceId": -2147483160,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 647,
+                    "yCoordinate": 93,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 7,
+                "yCoordinate": 54,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 788,
+                "height": 591,
+                "resourceId": -2147483148,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 632,
+                    "yCoordinate": 335,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 5,
+                "yCoordinate": 83,
+                "registrationActions": [],
+                "transactionLocationTypes": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481617,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 689,
+                "yCoordinate": 364,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481616,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 716,
+                "yCoordinate": 426,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481615,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 779,
+                "yCoordinate": 75,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481614,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 655,
+                "yCoordinate": 63,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481613,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 779,
+                "yCoordinate": 55,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481612,
+                "legendItemType": 209,
+                "iconType": 0,
+                "xCoordinate": 669,
+                "yCoordinate": 364,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0
+            },
+            {
+                "mapLegendItemId": -2147481611,
+                "legendItemType": 209,
+                "iconType": 0,
+                "xCoordinate": 750,
+                "yCoordinate": 458,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0
+            },
+            {
+                "mapLegendItemId": -2147481610,
+                "legendItemType": 209,
+                "iconType": 0,
+                "xCoordinate": 630,
+                "yCoordinate": 73,
+                "rValue": 0,
+                "gValue": 0,
+                "bValue": 0
+            },
+            {
+                "mapLegendItemId": -2147481609,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 245,
+                "yCoordinate": 393,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481608,
+                "legendItemType": 645,
+                "iconType": 17,
+                "xCoordinate": 714,
+                "yCoordinate": 362,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481607,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 149,
+                "yCoordinate": 309,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    },
+    {
+        "isOrganizationRoot": false,
+        "transactionLocationId": -2147483628,
+        "mapImageUrls": {
+            "en-CA": "https://reservation.pc.gc.ca/images/81bbfef9-eced-46b9-91af-f0da21445edb.png",
+            "fr-CA": "https://reservation.pc.gc.ca/images/cca8862a-e9cd-4746-90c5-0bc8e529e533.png"
+        },
+        "mapLinks": [],
+        "parentMap": {
+            "mapId": -2147483422,
+            "resourceLocationId": -2147483592
+        },
+        "mapId": -2147483409,
+        "versionId": -2147324244,
+        "versionDate": "2025-12-04T06:34:00.1Z",
+        "mapType": 0,
+        "isDisabled": false,
+        "xDimension": 800,
+        "yDimension": 750,
+        "localizedValues": [
+            {
+                "cultureName": "en-CA",
+                "title": "Skyline",
+                "description": "Skyline Trail",
+                "mapImageUid": "81bbfef9-eced-46b9-91af-f0da21445edb",
+                "mapImageFormat": 4
+            },
+            {
+                "cultureName": "fr-CA",
+                "title": "Skyline",
+                "description": "Sentier Skyline",
+                "mapImageUid": "cca8862a-e9cd-4746-90c5-0bc8e529e533",
+                "mapImageFormat": 4
+            }
+        ],
+        "resourceLocationId": -2147483592,
+        "mapResources": [
+            {
+                "resourceId": -2147483282,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 408,
+                    "yCoordinate": 393,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 398,
+                "yCoordinate": 405,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483250,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 607,
+                    "yCoordinate": 623,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 597,
+                "yCoordinate": 635,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483225,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 221,
+                    "yCoordinate": 286,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 210,
+                "yCoordinate": 298,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483222,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 477,
+                    "yCoordinate": 583,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 467,
+                "yCoordinate": 595,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483193,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 106,
+                    "yCoordinate": 199,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 96,
+                "yCoordinate": 211,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483191,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 223,
+                    "yCoordinate": 499,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 293,
+                "yCoordinate": 496,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "resourceId": -2147483167,
+                "iconType": 5,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 469,
+                    "yCoordinate": 668,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 561,
+                "yCoordinate": 662,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            }
+        ],
+        "mapAccessPointResources": [
+            {
+                "width": 794,
+                "height": 595,
+                "resourceId": -2147483153,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 92,
+                    "yCoordinate": 64,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2,
+                "yCoordinate": 62,
+                "registrationActions": [],
+                "transactionLocationTypes": []
+            },
+            {
+                "width": 791,
+                "height": 593,
+                "resourceId": -2147483146,
+                "iconType": 0,
+                "localizationPoint": {
+                    "justification": 0,
+                    "xCoordinate": 9,
+                    "yCoordinate": 633,
+                    "rValue": 0,
+                    "gValue": 0,
+                    "bValue": 0
+                },
+                "xCoordinate": 2,
+                "yCoordinate": 100,
+                "registrationActions": [],
+                "transactionLocationTypes": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "mapLegendItems": [
+            {
+                "mapLegendItemId": -2147481647,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 710,
+                "yCoordinate": 678,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481646,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 736,
+                "yCoordinate": 665,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481645,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 88,
+                "yCoordinate": 533,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481644,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 355,
+                "yCoordinate": 203,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481643,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 567,
+                "yCoordinate": 282,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481642,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 756,
+                "yCoordinate": 665,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481641,
+                "legendItemType": 311,
+                "iconType": 17,
+                "xCoordinate": 690,
+                "yCoordinate": 678,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481640,
+                "legendItemType": 338,
+                "iconType": 17,
+                "xCoordinate": 710,
+                "yCoordinate": 698,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481639,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 767,
+                "yCoordinate": 598,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481638,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 621,
+                "yCoordinate": 699,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481637,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 649,
+                "yCoordinate": 648,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481636,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 140,
+                "yCoordinate": 503,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481635,
+                "legendItemType": 209,
+                "iconType": 16,
+                "xCoordinate": 64,
+                "yCoordinate": 127,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481634,
+                "legendItemType": 9,
+                "iconType": 17,
+                "xCoordinate": 276,
+                "yCoordinate": 472,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481633,
+                "legendItemType": 648,
+                "iconType": 17,
+                "xCoordinate": 68,
+                "yCoordinate": 533,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            },
+            {
+                "mapLegendItemId": -2147481632,
+                "legendItemType": 235,
+                "iconType": 17,
+                "xCoordinate": 50,
+                "yCoordinate": 89,
+                "rValue": 0,
+                "gValue": 101,
+                "bValue": 164
+            }
+        ],
+        "mapLabels": [],
+        "mapGlobalStyleLegends": [],
+        "parentTransactionLocationId": null,
+        "defaultResultsView": 0,
+        "transactionLocationTypes": []
+    }
+]
