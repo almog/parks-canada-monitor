@@ -56,6 +56,10 @@ monitor:
 parks_canada:
   base_url: "https://reservation.pc.gc.ca"
 
+notifications:
+  ntfy_topic: ""                # set to your topic name to enable push notifications
+  ntfy_url: "https://ntfy.sh"  # override for a self-hosted ntfy server
+
 auto_book:
   enabled: false    # Phase 2 — not yet implemented
   dry_run: true
@@ -142,6 +146,24 @@ parks-monitor discover --park banff   # filter by park name
 | `--config` | `-c` | Path to config.yaml (default: `config.yaml`) |
 | `--watchlist` | `-w` | Path to watchlist.yaml (default: `watchlist.yaml`) |
 | `--verbose` | `-v` | Enable debug logging |
+
+## Notifications (ntfy.sh)
+
+Get push notifications on your phone the moment a permit opens up.
+
+1. Install the [ntfy app](https://ntfy.sh/) on iOS or Android (free)
+2. Pick a topic name — this is like a private channel, so make it hard to guess (e.g. `parks-monitor-x7k2m`)
+3. Tap **Subscribe** in the app and enter your topic name
+4. Add to `config.yaml`:
+
+```yaml
+notifications:
+  ntfy_topic: "parks-monitor-x7k2m"
+```
+
+That's it. When a watched site opens up you'll get a high-priority push notification with the site name and dates. The monitor also continues logging at WARNING level regardless.
+
+> The public ntfy.sh server is free and requires no account. For privacy, you can [self-host ntfy](https://docs.ntfy.sh/install/) and set `ntfy_url` to your server's address.
 
 ## How It Works
 
