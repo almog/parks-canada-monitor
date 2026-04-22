@@ -91,6 +91,11 @@ class ParksCanadaConfig(BaseModel):
     base_url: str = "https://reservation.pc.gc.ca"
 
 
+class NotificationsConfig(BaseModel):
+    ntfy_topic: str = ""
+    ntfy_url: str = "https://ntfy.sh"
+
+
 class AutoBookConfig(BaseModel):
     enabled: bool = False
     dry_run: bool = True
@@ -100,6 +105,7 @@ class AutoBookConfig(BaseModel):
 class AppConfig(BaseModel):
     monitor: MonitorConfig = MonitorConfig()
     parks_canada: ParksCanadaConfig = ParksCanadaConfig()
+    notifications: NotificationsConfig = NotificationsConfig()
     auto_book: AutoBookConfig = AutoBookConfig()
 
 

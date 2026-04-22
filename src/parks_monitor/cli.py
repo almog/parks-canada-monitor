@@ -16,6 +16,7 @@ from parks_monitor import __version__
 from parks_monitor.client import GoingToCampClient
 from parks_monitor.config import load_config, load_watchlist
 from parks_monitor.monitor import check_entry, poll_loop
+from parks_monitor.notify import NtfyNotifier
 from parks_monitor.resolver import (
     campsite_names,
     classify_type,
@@ -98,11 +99,18 @@ def run(
     state = State()
 
     console.print(f"[green]Starting monitor (poll every {config.monitor.poll_interval_minutes} min)[/green]")
+    ntfy_topic = config.notifications.ntfy_topic
+    if ntfy_topic:
+        console.print(f"[green]Notifications → ntfy.sh/{ntfy_topic}[/green]")
 
     async def _run():
         async with httpx.AsyncClient() as http:
             client = GoingToCampClient(http, config.parks_canada.base_url)
-            await poll_loop(client, watchlist_path, state, config.monitor)
+            notifier = (
+                NtfyNotifier(http, ntfy_topic, config.notifications.ntfy_url)
+                if ntfy_topic else None
+            )
+            await poll_loop(client, watchlist_path, state, config.monitor, notifier=notifier)
 
     try:
         asyncio.run(_run())

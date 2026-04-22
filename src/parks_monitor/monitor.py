@@ -6,6 +6,7 @@ import random
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from typing import Protocol
 
 import httpx
 
@@ -54,6 +55,12 @@ class AvailabilityChange:
                 out.append(d)
                 d += timedelta(days=1)
         return out
+
+
+class Notifier(Protocol):
+    """Anything that can deliver an opening alert. Implement this to add a channel."""
+
+    async def send(self, change: AvailabilityChange) -> None: ...
 
 
 class _RateLimited(Exception):
@@ -238,11 +245,13 @@ async def poll_loop(
     watchlist_path: Path,
     state: State,
     config: MonitorConfig,
+    notifier: Notifier | None = None,
 ):
     """Run cycles on interval until cancelled. Reloads watchlist on file change.
 
     Survives transient errors — any exception inside a cycle is logged and the
     loop continues. Cancellation propagates so KeyboardInterrupt still works.
+    If `notifier` is provided it is called for each new opening.
     """
     last_mtime: float | None = None
     watchlist: Watchlist | None = None
@@ -288,6 +297,12 @@ async def poll_loop(
                     "Poll cycle complete: %d new openings, %d entries",
                     len(changes), len(watchlist.entries),
                 )
+                if notifier is not None:
+                    for change in changes:
+                        try:
+                            await notifier.send(change)
+                        except Exception:
+                            logger.exception("Notifier failed for %s", change.entry_name)
 
         except asyncio.CancelledError:
             raise
