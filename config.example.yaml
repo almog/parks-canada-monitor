@@ -1,21 +1,12 @@
 monitor:
   poll_interval_minutes: 10
   jitter_seconds: 30
+  dedup_hours: 4
+  request_delay_min_seconds: 1.0
+  request_delay_max_seconds: 3.0
 
 parks_canada:
   base_url: "https://reservation.pc.gc.ca"
-
-notifications:
-  email:
-    enabled: true
-    smtp_host: "smtp.gmail.com"
-    smtp_port: 587
-    smtp_user: "${SMTP_USER}"
-    smtp_password: "${SMTP_PASSWORD}"
-    from_address: "you@gmail.com"
-    to_addresses:
-      - "you@gmail.com"
-  dedup_hours: 4
 
 auto_book:
   enabled: false

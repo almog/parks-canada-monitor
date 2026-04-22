@@ -1,6 +1,6 @@
 # Parks Canada Backcountry Permit Monitor
 
-Watches for cancelled backcountry camping permits on Parks Canada's reservation system and alerts you instantly via email. Designed for thru-hikers who need dozens of permits across multiple parks (e.g., the Great Divide Trail).
+Watches for cancelled backcountry camping permits on Parks Canada's reservation system and surfaces new openings in the log (WARNING level). Designed for thru-hikers who need dozens of permits across multiple parks (e.g., the Great Divide Trail).
 
 Parks Canada uses the GoingToCamp platform at `reservation.pc.gc.ca`. Permits sell out within minutes of opening day each January. The only way to get them after that is to catch cancellations — this tool does that automatically.
 
@@ -51,21 +51,10 @@ This prints a table of all backcountry campsites and their names. Copy the exact
 monitor:
   poll_interval_minutes: 10     # how often to check (minutes)
   jitter_seconds: 30            # random ± jitter added to interval
+  dedup_hours: 4                # don't re-log the same opening within this window
 
 parks_canada:
   base_url: "https://reservation.pc.gc.ca"
-
-notifications:
-  email:
-    enabled: true
-    smtp_host: "smtp.gmail.com"
-    smtp_port: 587
-    smtp_user: "${SMTP_USER}"           # interpolated from environment
-    smtp_password: "${SMTP_PASSWORD}"   # interpolated from environment
-    from_address: "you@gmail.com"
-    to_addresses:
-      - "you@gmail.com"
-  dedup_hours: 4                # don't re-alert same opening within this window
 
 auto_book:
   enabled: false    # Phase 2 — not yet implemented
@@ -73,14 +62,7 @@ auto_book:
   daily_limit: 3
 ```
 
-Credentials use `${VAR}` syntax and are interpolated from environment variables. Put them in a `.env` file (never commit this):
-
-```
-SMTP_USER=you@gmail.com
-SMTP_PASSWORD=your-app-password
-```
-
-For Gmail, use an [App Password](https://support.google.com/accounts/answer/185833) — not your regular password.
+Environment variable interpolation with `${VAR}` syntax is supported in any string value if you ever need it.
 
 ### watchlist.yaml
 
@@ -109,7 +91,7 @@ Use campsite names from `parks-monitor discover` in the `campsites` field. You c
 
 | Field | Required | Default | Description |
 |---|---|---|---|
-| `name` | yes | — | Display name (used in emails and logs) |
+| `name` | yes | — | Display name (used in log lines) |
 | `campground` | yes | — | Campground name (for reference) |
 | `campsites` | no | `[]` | Campsite names from `parks-monitor discover` (resolved to IDs automatically) |
 | `resource_ids` | no | `[]` | Numeric resource IDs (alternative to `campsites`) |
@@ -127,7 +109,7 @@ The watchlist is hot-reloaded — edit it while the monitor is running and chang
 
 ### `parks-monitor run`
 
-Starts the continuous monitoring loop. Polls Parks Canada every N minutes and sends email alerts when watched sites become available.
+Starts the continuous monitoring loop. Polls Parks Canada every N minutes and emits a `NEW OPENING` log line at WARNING level when a watched site transitions from booked to available.
 
 ```bash
 parks-monitor run                                  # defaults
@@ -165,11 +147,11 @@ parks-monitor discover --park banff   # filter by park name
 
 1. Each poll cycle, the monitor queries `/api/availability/resourcedailyavailability` for every resource ID in your watchlist (including flexibility-expanded dates)
 2. Results are compared against the previous cycle's state
-3. If a site transitions from **unavailable to available**, an email is sent with the campsite name, dates, and a link to the booking page
-4. Duplicate alerts for the same opening are suppressed within the dedup window (default 4 hours)
+3. If a site transitions from **unavailable to available**, a `NEW OPENING` line is logged at WARNING level with the entry name, resource ID, and date runs (consecutive dates merged into ranges)
+4. Duplicate log lines for the same opening are suppressed within the dedup window (default 4 hours)
 5. Requests are made sequentially with 1-3 second random delays between entries to avoid rate limiting
 
-The first cycle is always a baseline — it records current state but sends no notifications, so you won't get flooded with alerts on startup.
+The first cycle is always a baseline — it records current state but emits no opening logs, so you won't get spammed on startup.
 
 ## Development
 
@@ -197,8 +179,7 @@ src/parks_monitor/
   config.py      Config models + YAML loading
   state.py       In-memory availability state + dedup
   client.py      Parks Canada API client (httpx async)
-  monitor.py     Availability checker + diff + poll loop
-  notify.py      Email notifier (aiosmtplib)
+  monitor.py     Availability checker + diff + poll loop (logs new openings)
   resolver.py    Resource ID <-> campsite name resolution
   cli.py         Typer CLI commands
   data/          Bundled campsite name mappings (415 resources)
@@ -207,8 +188,7 @@ tests/
   test_config.py       Config loading + validation
   test_state.py        State transitions + dedup logic
   test_client.py       API client with mocked HTTP (respx)
-  test_monitor.py      Poll cycle with fake client/notifier
-  test_notify.py       Email formatting + error handling
+  test_monitor.py      Poll cycle with fake client (asserts on returned changes)
   test_cli.py          CLI commands
   test_integration.py  Multi-cycle lifecycle tests
   fixtures/            Recorded API responses from Parks Canada
@@ -217,5 +197,4 @@ tests/
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/) (or Python 3.11+ with pip)
-- A Gmail account (or other SMTP provider) for email notifications
 - The campsite names you want to monitor (use `parks-monitor discover` to browse)
