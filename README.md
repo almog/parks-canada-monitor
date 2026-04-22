@@ -163,6 +163,13 @@ notifications:
 
 That's it. When a watched site opens up you'll get a high-priority push notification with the site name and dates. The monitor also continues logging at WARNING level regardless.
 
+> **Keeping the topic secret:** `config.yaml` is gitignored so it won't be committed accidentally. If you prefer to keep the config file in version control, use environment variable interpolation instead:
+> ```yaml
+> notifications:
+>   ntfy_topic: "${NTFY_TOPIC}"
+> ```
+> Then `export NTFY_TOPIC=parks-monitor-x7k2m` before running.
+
 > The public ntfy.sh server is free and requires no account. For privacy, you can [self-host ntfy](https://docs.ntfy.sh/install/) and set `ntfy_url` to your server's address.
 
 ## How It Works

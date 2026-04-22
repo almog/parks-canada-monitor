@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# User-specific config and watchlists — contain secrets (ntfy topic, etc.)
+# Commit only the .example versions
+config.yaml
+watchlist.yaml
+
+# Evidence and log files from monitoring runs
+evidence/
+evidence-test/
+watch.log
+*.log
+
+# macOS
+.DS_Store
