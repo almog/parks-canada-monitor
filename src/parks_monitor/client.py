@@ -32,6 +32,12 @@ class DailyAvailability(BaseModel):
     processed_availability: int
     remaining_quota: int | None = None
 
+    @property
+    def is_bookable(self) -> bool:
+        # availability=1 is bookable; processed=3 means not open for this
+        # category (shelters/group sites) and overrides availability=1.
+        return self.availability == 1 and self.processed_availability != 3
+
 
 class GoingToCampClient:
     def __init__(self, http_client: httpx.AsyncClient, base_url: str):

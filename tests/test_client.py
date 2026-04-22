@@ -6,7 +6,18 @@ import httpx
 import pytest
 import respx
 
-from parks_monitor.client import GoingToCampClient
+from parks_monitor.client import DailyAvailability, GoingToCampClient
+
+
+def test_is_bookable_basic():
+    assert DailyAvailability(availability=1, processed_availability=5).is_bookable
+    assert not DailyAvailability(availability=0, processed_availability=5).is_bookable
+
+
+def test_is_bookable_processed_3_overrides():
+    """processed_availability=3 means not open for this category."""
+    assert not DailyAvailability(availability=1, processed_availability=3).is_bookable
+    assert not DailyAvailability(availability=0, processed_availability=3).is_bookable
 
 FIXTURES = Path(__file__).parent / "fixtures"
 BASE_URL = "https://reservation.pc.gc.ca"
