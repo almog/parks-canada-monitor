@@ -6,7 +6,6 @@ import pytest
 from parks_monitor.config import (
     AppConfig,
     DateRange,
-    Watchlist,
     WatchlistEntry,
     load_config,
     load_watchlist,
@@ -72,6 +71,7 @@ def test_effective_date_ranges_with_flexibility():
 def test_app_config_defaults():
     config = AppConfig()
     assert config.monitor.poll_interval_minutes == 10
+    assert config.monitor.dedup_hours == 4
     assert config.parks_canada.base_url == "https://reservation.pc.gc.ca"
     assert config.auto_book.enabled is False
     assert config.auto_book.dry_run is True
@@ -83,29 +83,25 @@ def test_load_config_from_yaml(tmp_path: Path):
         """
 monitor:
   poll_interval_minutes: 5
-notifications:
-  email:
-    smtp_host: smtp.example.com
-    smtp_user: user@example.com
+  dedup_hours: 2
 """
     )
     config = load_config(config_file)
     assert config.monitor.poll_interval_minutes == 5
-    assert config.notifications.email.smtp_host == "smtp.example.com"
+    assert config.monitor.dedup_hours == 2
 
 
 def test_load_config_env_interpolation(tmp_path: Path, monkeypatch):
-    monkeypatch.setenv("TEST_SMTP_PASS", "secret123")
+    monkeypatch.setenv("TEST_BASE_URL", "https://example.com")
     config_file = tmp_path / "config.yaml"
     config_file.write_text(
         """
-notifications:
-  email:
-    smtp_password: "${TEST_SMTP_PASS}"
+parks_canada:
+  base_url: "${TEST_BASE_URL}"
 """
     )
     config = load_config(config_file)
-    assert config.notifications.email.smtp_password == "secret123"
+    assert config.parks_canada.base_url == "https://example.com"
 
 
 def test_load_config_missing_file(tmp_path: Path):
@@ -172,10 +168,21 @@ def test_watchlist_entry_no_ids_or_campsites():
 
 
 def test_watchlist_entry_bad_campsite_name():
-    with pytest.raises(ValueError, match="No campsite found"):
+    with pytest.raises(ValueError, match="No exact campsite match"):
         WatchlistEntry(
             name="test",
             campground="Test",
             campsites=["Nonexistent Fake Campsite XYZ"],
+            date_ranges=[{"start": "2026-07-01", "end": "2026-07-03"}],
+        )
+
+
+def test_watchlist_entry_substring_campsite_rejected():
+    """Substring matches must be rejected; user must specify the exact name."""
+    with pytest.raises(ValueError, match="Did you mean"):
+        WatchlistEntry(
+            name="test",
+            campground="Test",
+            campsites=["Egypt Lake"],  # matches multiple — Egypt Lake - E13, Egypt Lake Shelter, ...
             date_ranges=[{"start": "2026-07-01", "end": "2026-07-03"}],
         )

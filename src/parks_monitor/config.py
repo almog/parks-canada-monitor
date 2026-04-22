@@ -34,20 +34,26 @@ class WatchlistEntry(BaseModel):
 
     @model_validator(mode="after")
     def resolve_campsite_names(self):
-        """Resolve human-readable campsite names to resource IDs."""
+        """Resolve human-readable campsite names to resource IDs (exact match only)."""
         if self.campsites:
-            from parks_monitor.resolver import resolve_ids
+            from parks_monitor.resolver import resolve_id, resolve_ids, resolve_name
 
             for campsite_name in self.campsites:
-                ids = resolve_ids(campsite_name)
-                if not ids:
-                    raise ValueError(
-                        f"No campsite found matching '{campsite_name}'. "
-                        f"Run 'parks-monitor discover' to see available names."
+                rid = resolve_id(campsite_name)
+                if rid is None:
+                    suggestions = [
+                        resolve_name(r) for r in resolve_ids(campsite_name)[:5]
+                    ]
+                    hint = (
+                        f" Did you mean: {', '.join(suggestions)}?"
+                        if suggestions
+                        else " Run 'parks-monitor discover' to see available names."
                     )
-                for rid in ids:
-                    if rid not in self.resource_ids:
-                        self.resource_ids.append(rid)
+                    raise ValueError(
+                        f"No exact campsite match for '{campsite_name}'.{hint}"
+                    )
+                if rid not in self.resource_ids:
+                    self.resource_ids.append(rid)
         if not self.resource_ids:
             raise ValueError(
                 "Entry must have at least one of 'resource_ids' or 'campsites'"
@@ -76,25 +82,13 @@ class Watchlist(BaseModel):
 class MonitorConfig(BaseModel):
     poll_interval_minutes: int = 10
     jitter_seconds: int = 30
+    request_delay_min_seconds: float = 1.0
+    request_delay_max_seconds: float = 3.0
+    dedup_hours: int = 4
 
 
 class ParksCanadaConfig(BaseModel):
     base_url: str = "https://reservation.pc.gc.ca"
-
-
-class EmailConfig(BaseModel):
-    enabled: bool = True
-    smtp_host: str = "smtp.gmail.com"
-    smtp_port: int = 587
-    smtp_user: str = ""
-    smtp_password: str = ""
-    from_address: str = ""
-    to_addresses: list[str] = []
-
-
-class NotificationsConfig(BaseModel):
-    email: EmailConfig = EmailConfig()
-    dedup_hours: int = 4
 
 
 class AutoBookConfig(BaseModel):
@@ -106,7 +100,6 @@ class AutoBookConfig(BaseModel):
 class AppConfig(BaseModel):
     monitor: MonitorConfig = MonitorConfig()
     parks_canada: ParksCanadaConfig = ParksCanadaConfig()
-    notifications: NotificationsConfig = NotificationsConfig()
     auto_book: AutoBookConfig = AutoBookConfig()
 
 
