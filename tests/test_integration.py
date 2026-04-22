@@ -1,21 +1,11 @@
 """Integration tests: wire real components together, mock only HTTP."""
-from datetime import date, datetime, timedelta
+from datetime import date
 from pathlib import Path
-
-import pytest
 
 from parks_monitor.client import DailyAvailability
 from parks_monitor.config import Watchlist, WatchlistEntry, load_watchlist
 from parks_monitor.monitor import run_cycle
 from parks_monitor.state import State
-
-
-class FakeNotifier:
-    def __init__(self):
-        self.sent: list = []
-
-    async def notify(self, change, entry):
-        self.sent.append((change, entry))
 
 
 class ScriptedClient:
@@ -62,13 +52,13 @@ async def test_full_poll_cycle_lifecycle():
     entry = _make_entry()
     watchlist = Watchlist(entries=[entry])
     state = State()
-    notifier = FakeNotifier()
+    all_changes = []
 
     # Cycle 1: all booked
     client = ScriptedClient([_booked(3)])
-    count = await run_cycle(client, watchlist, state, notifier)
-    assert count == 0
-    assert len(notifier.sent) == 0
+    changes = await run_cycle(client, watchlist, state)
+    all_changes.extend(changes)
+    assert changes == []
     assert len(state.last_availability) == 3
 
     # Cycle 2: day 2 becomes available
@@ -78,20 +68,21 @@ async def test_full_poll_cycle_lifecycle():
         DailyAvailability(availability=0, processed_availability=5),
     ]
     client = ScriptedClient([mixed])
-    count = await run_cycle(client, watchlist, state, notifier)
-    assert count == 1
-    assert notifier.sent[0][0].site_date == date(2026, 7, 2)
+    changes = await run_cycle(client, watchlist, state)
+    all_changes.extend(changes)
+    assert len(changes) == 1
+    assert changes[0].site_date == date(2026, 7, 2)
 
     # Cycle 3: same availability → no duplicate
     client = ScriptedClient([mixed])
-    count = await run_cycle(client, watchlist, state, notifier)
-    assert count == 0
-    assert len(notifier.sent) == 1  # still just the one from cycle 2
+    changes = await run_cycle(client, watchlist, state)
+    assert changes == []
+    assert len(all_changes) == 1  # still just the one from cycle 2
 
     # Cycle 4: back to all booked
     client = ScriptedClient([_booked(3)])
-    count = await run_cycle(client, watchlist, state, notifier)
-    assert count == 0
+    changes = await run_cycle(client, watchlist, state)
+    assert changes == []
     assert state.last_availability["-100::2026-07-02"] is False
 
 
@@ -141,13 +132,12 @@ async def test_multiple_resources_per_entry():
     )
     watchlist = Watchlist(entries=[entry])
     state = State()
-    notifier = FakeNotifier()
 
     # First call returns booked, second returns available
     client = ScriptedClient([_booked(1), _available(1)])
-    count = await run_cycle(client, watchlist, state, notifier)
-    # Baseline — no notifications
-    assert count == 0
+    changes = await run_cycle(client, watchlist, state)
+    # Baseline — no changes
+    assert changes == []
     assert "-100::2026-07-01" in state.last_availability
     assert "-200::2026-07-01" in state.last_availability
     assert state.last_availability["-100::2026-07-01"] is False
@@ -159,22 +149,24 @@ async def test_dedup_across_cycles():
     entry = _make_entry()
     watchlist = Watchlist(entries=[entry])
     state = State()
-    notifier = FakeNotifier()
 
     # Cycle 1: baseline all booked
     client = ScriptedClient([_booked(3)])
-    await run_cycle(client, watchlist, state, notifier)
+    await run_cycle(client, watchlist, state)
 
-    # Cycle 2: slot opens → notify
+    # Cycle 2: slot opens → one batched change covering all 3 days
     client = ScriptedClient([_available(3)])
-    await run_cycle(client, watchlist, state, notifier)
-    assert len(notifier.sent) == 3
+    changes = await run_cycle(client, watchlist, state)
+    assert len(changes) == 1
+    assert len(changes[0].runs) == 1
+    assert changes[0].runs[0].start == date(2026, 7, 1)
+    assert changes[0].runs[0].end == date(2026, 7, 3)
 
     # Cycle 3: goes back to booked
     client = ScriptedClient([_booked(3)])
-    await run_cycle(client, watchlist, state, notifier)
+    await run_cycle(client, watchlist, state)
 
-    # Cycle 4: opens again within dedup window → should NOT re-notify
+    # Cycle 4: opens again within dedup window → should NOT re-emit
     client = ScriptedClient([_available(3)])
-    count = await run_cycle(client, watchlist, state, notifier, dedup_hours=4)
-    assert count == 0  # within dedup window
+    changes = await run_cycle(client, watchlist, state, dedup_hours=4)
+    assert changes == []  # within dedup window
