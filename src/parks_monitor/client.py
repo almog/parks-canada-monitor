@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import logging
 import random
 from datetime import date
 
 import httpx
 from pydantic import BaseModel
+
+logger = logging.getLogger(__name__)
 
 
 _USER_AGENTS = [
@@ -30,13 +33,15 @@ class MapZone(BaseModel):
 class DailyAvailability(BaseModel):
     availability: int  # 1 = bookable, 0 = booked
     processed_availability: int
-    remaining_quota: int | None = None
 
     @property
     def is_bookable(self) -> bool:
-        # availability=1 is bookable; processed=3 means not open for this
-        # category (shelters/group sites) and overrides availability=1.
-        return self.availability == 1 and self.processed_availability != 3
+        # availability=1 is bookable; the live API always returns
+        # processedAvailability in (3, 5) for backcountry — 3 means not open
+        # for this booking category (shelters/group sites). Anything outside
+        # {5} is treated as not-bookable to avoid false positives if the
+        # contract ever drifts.
+        return self.availability == 1 and self.processed_availability == 5
 
 
 class GoingToCampClient:
@@ -142,11 +147,17 @@ class GoingToCampClient:
         data = await self._get(
             "/api/availability/resourcedailyavailability", params=params
         )
+        expected = (end_date - start_date).days + 1
+        if len(data) != expected:
+            logger.warning(
+                "Resource %d %s..%s returned %d entries, expected %d",
+                resource_id, start_date.isoformat(), end_date.isoformat(),
+                len(data), expected,
+            )
         return [
             DailyAvailability(
                 availability=d.get("availability", 0),
                 processed_availability=d.get("processedAvailability", 0),
-                remaining_quota=d.get("remainingQuota"),
             )
             for d in data
         ]

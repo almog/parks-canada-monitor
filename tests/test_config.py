@@ -104,6 +104,20 @@ parks_canada:
     assert config.parks_canada.base_url == "https://example.com"
 
 
+def test_load_config_env_unresolved_raises(tmp_path: Path, monkeypatch):
+    """An unset ${VAR} must fail loudly, not silently pass through the placeholder."""
+    monkeypatch.delenv("UNSET_TOPIC_XYZ", raising=False)
+    config_file = tmp_path / "config.yaml"
+    config_file.write_text(
+        """
+notifications:
+  ntfy_topic: "${UNSET_TOPIC_XYZ}"
+"""
+    )
+    with pytest.raises(ValueError, match="UNSET_TOPIC_XYZ"):
+        load_config(config_file)
+
+
 def test_load_config_missing_file(tmp_path: Path):
     with pytest.raises(FileNotFoundError):
         load_config(tmp_path / "nonexistent.yaml")

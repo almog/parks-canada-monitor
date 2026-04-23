@@ -1,15 +1,14 @@
 from parks_monitor.resolver import (
-    classify_type,
     campsite_names,
-    gdt_sites,
+    classify_type,
     id_to_name,
     is_gdt_site,
+    locations,
     name_to_id,
     reservation_url,
     resolve_id,
     resolve_ids,
     resolve_name,
-    locations,
 )
 
 
@@ -99,15 +98,6 @@ def test_classify_type_horse():
 
 def test_classify_type_hut():
     assert classify_type("Bow Hut Random") == "hut"
-
-
-def test_gdt_sites_count():
-    sites = gdt_sites()
-    assert len(sites) >= 120  # At least 120 clean GDT sites
-    # No grazing/trailhead/private entries
-    for rid, name in sites.items():
-        t = classify_type(name)
-        assert t not in ("trailhead", "horse", "access", "private"), f"Bad GDT entry: {name} ({t})"
 
 
 def test_is_gdt_site():

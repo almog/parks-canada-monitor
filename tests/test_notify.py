@@ -1,5 +1,5 @@
-import pytest
 import httpx
+import pytest
 
 from parks_monitor.monitor import AvailabilityChange, DateRun
 from parks_monitor.notify import NtfyNotifier

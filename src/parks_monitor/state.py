@@ -8,7 +8,6 @@ from datetime import datetime, timedelta
 class State:
     last_availability: dict[str, bool] = field(default_factory=dict)
     last_notified: dict[str, datetime] = field(default_factory=dict)
-    bookings_today: list = field(default_factory=list)
     last_poll_at: datetime | None = None
 
     def is_new_opening(self, key: str, available: bool) -> bool:

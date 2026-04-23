@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import os
 from datetime import date
+from logging.handlers import RotatingFileHandler
 from pathlib import Path
-from typing import Optional
 
 import httpx
 import typer
@@ -43,7 +44,7 @@ def _version_callback(value: bool):
 
 @app.callback()
 def main(
-    version: Optional[bool] = typer.Option(
+    version: bool | None = typer.Option(
         None, "--version", callback=_version_callback, is_eager=True,
         help="Show version and exit.",
     ),
@@ -51,13 +52,29 @@ def main(
     """Parks Canada backcountry permit monitor."""
 
 
-def _setup_logging(verbose: bool = False):
+def _setup_logging(verbose: bool = False, log_file: Path | None = None) -> None:
     level = logging.DEBUG if verbose else logging.INFO
-    logging.basicConfig(
-        level=level,
-        format="%(asctime)s %(levelname)-8s %(name)s: %(message)s",
+    fmt = logging.Formatter(
+        "%(asctime)s %(levelname)-8s %(name)s: %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
     )
+    root = logging.getLogger()
+    root.setLevel(level)
+    # Clear any handlers a prior call installed (relevant in tests / repeated CLI invocations).
+    for h in list(root.handlers):
+        root.removeHandler(h)
+
+    stream = logging.StreamHandler()
+    stream.setFormatter(fmt)
+    root.addHandler(stream)
+
+    if log_file is not None:
+        # 10 MB per file, keep 5 old files → ~60 MB cap for a long-running monitor.
+        rotating = RotatingFileHandler(
+            log_file, maxBytes=10 * 1024 * 1024, backupCount=5, encoding="utf-8",
+        )
+        rotating.setFormatter(fmt)
+        root.addHandler(rotating)
 
 
 def _default_config_path() -> Path:
@@ -78,6 +95,17 @@ def _complete_campsite_gdt(incomplete: str) -> list[str]:
     return [n for n in campsite_names(gdt_only=True) if incomplete.lower() in n.lower()]
 
 
+def _atomic_write_yaml(path: Path, data: dict) -> None:
+    # Write to a temp file in the same directory, then rename — avoids a
+    # concurrent `run` reader observing a half-written file.
+    text = yaml.dump(
+        data, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120
+    )
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text)
+    os.replace(tmp, path)
+
+
 # ── run ──────────────────────────────────────────────────────────────────────
 
 @app.command()
@@ -85,9 +113,13 @@ def run(
     config_path: Path = typer.Option(_default_config_path, "--config", "-c"),
     watchlist_path: Path = typer.Option(_default_watchlist_path, "--watchlist", "-w"),
     verbose: bool = typer.Option(False, "--verbose", "-v"),
+    log_file: Path | None = typer.Option(
+        None, "--log-file", "-l",
+        help="Write logs to this file with 10MB rotation (keeps 5 backups).",
+    ),
 ):
     """Start the monitoring loop."""
-    _setup_logging(verbose)
+    _setup_logging(verbose, log_file)
     if not config_path.exists():
         console.print(f"[red]Config file not found: {config_path}[/red]")
         raise typer.Exit(1)
@@ -98,7 +130,8 @@ def run(
     config = load_config(config_path)
     state = State()
 
-    console.print(f"[green]Starting monitor (poll every {config.monitor.poll_interval_minutes} min)[/green]")
+    interval = config.monitor.poll_interval_minutes
+    console.print(f"[green]Starting monitor (poll every {interval} min)[/green]")
     ntfy_topic = config.notifications.ntfy_topic
     if ntfy_topic:
         console.print(f"[green]Notifications → ntfy.sh/{ntfy_topic}[/green]")
@@ -164,7 +197,7 @@ def check(
 def discover(
     park: str = typer.Option("", "--park", "-p", help="Filter by park name substring"),
     gdt: bool = typer.Option(False, "--gdt", help="Show only GDT-corridor sites"),
-    site_type: Optional[str] = typer.Option(
+    site_type: str | None = typer.Option(
         None, "--type", "-t",
         help="Filter by type: designated, random, hut, trailhead, horse, access, out_of_park",
     ),
@@ -305,12 +338,24 @@ def watchlist_add(
         existing = {}
 
     entries = existing.get("entries", [])
+
+    for existing_entry in entries:
+        same_site = campsite in (existing_entry.get("campsites") or [])
+        same_dates = any(
+            dr.get("start") == start and dr.get("end") == end
+            for dr in existing_entry.get("date_ranges") or []
+        )
+        if same_site and same_dates:
+            console.print(
+                f"[yellow]Duplicate: '{campsite}' {start} → {end} "
+                f"already exists as '{existing_entry.get('name')}'.[/yellow]"
+            )
+            raise typer.Exit(1)
+
     entries.append(new_entry)
     existing["entries"] = entries
 
-    watchlist_path.write_text(
-        yaml.dump(existing, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
-    )
+    _atomic_write_yaml(watchlist_path, existing)
 
     console.print(f"[green]Added:[/green] {entry_name}")
     console.print(f"  Campsite: {resolve_name(rid)}")
@@ -333,6 +378,9 @@ def watchlist_remove(
     data = yaml.safe_load(watchlist_path.read_text()) or {}
     entries = data.get("entries", [])
 
+    if not entries:
+        console.print("[red]Watchlist is empty — nothing to remove.[/red]")
+        raise typer.Exit(1)
     if index < 0 or index >= len(entries):
         console.print(f"[red]Index {index} out of range (0–{len(entries)-1})[/red]")
         raise typer.Exit(1)
@@ -345,7 +393,5 @@ def watchlist_remove(
 
     entries.pop(index)
     data["entries"] = entries
-    watchlist_path.write_text(
-        yaml.dump(data, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
-    )
+    _atomic_write_yaml(watchlist_path, data)
     console.print(f"[green]Removed:[/green] {entry_name}")

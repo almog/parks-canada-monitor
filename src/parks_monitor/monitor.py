@@ -11,7 +11,12 @@ from typing import Protocol
 import httpx
 
 from parks_monitor.client import GoingToCampClient
-from parks_monitor.config import MonitorConfig, Watchlist, WatchlistEntry, load_watchlist
+from parks_monitor.config import (
+    MonitorConfig,
+    Watchlist,
+    WatchlistEntry,
+    load_watchlist,
+)
 from parks_monitor.state import State
 
 logger = logging.getLogger(__name__)
@@ -40,21 +45,6 @@ class AvailabilityChange:
     def site_date(self) -> date:
         """First date of the first run — convenience for callers / legacy tests."""
         return self.runs[0].start
-
-    @property
-    def is_available(self) -> bool:
-        # Currently we only emit AvailabilityChange for new openings.
-        return True
-
-    @property
-    def all_dates(self) -> list[date]:
-        out: list[date] = []
-        for r in self.runs:
-            d = r.start
-            while d <= r.end:
-                out.append(d)
-                d += timedelta(days=1)
-        return out
 
 
 class Notifier(Protocol):
@@ -210,9 +200,12 @@ async def run_cycle(
         try:
             results = await check_entry(client, entry, pacer)
         except _RateLimited:
+            # Abort the rest of the cycle but still flush whatever openings we
+            # already detected — otherwise state.last_availability has been
+            # updated for prior entries and those openings would be lost (they
+            # would look unchanged next cycle).
             logger.warning("Cycle aborted early due to rate limiting")
-            state.last_poll_at = datetime.now()
-            return []
+            break
 
         for key, rid, site_date, available in results:
             if state.is_new_opening(key, available) and state.should_notify(

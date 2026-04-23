@@ -118,6 +118,30 @@ def test_watchlist_remove(tmp_path: Path):
     assert "empty" in result2.output.lower()
 
 
+def test_watchlist_remove_from_empty_file(tmp_path: Path):
+    wl = tmp_path / "wl.yaml"
+    wl.write_text("entries: []\n")
+    result = runner.invoke(app, ["watchlist", "remove", "0", "--yes", "--watchlist", str(wl)])
+    assert result.exit_code == 1
+    assert "empty" in result.output.lower()
+
+
+def test_watchlist_add_rejects_duplicate(tmp_path: Path):
+    wl = tmp_path / "wl.yaml"
+    runner.invoke(
+        app,
+        ["watchlist", "add", "Egypt Lake - E13", "--start", "2026-07-01", "--end", "2026-07-03",
+         "--watchlist", str(wl)],
+    )
+    result = runner.invoke(
+        app,
+        ["watchlist", "add", "Egypt Lake - E13", "--start", "2026-07-01", "--end", "2026-07-03",
+         "--watchlist", str(wl)],
+    )
+    assert result.exit_code == 1
+    assert "duplicate" in result.output.lower()
+
+
 def test_watchlist_remove_bad_index(tmp_path: Path):
     wl = tmp_path / "wl.yaml"
     runner.invoke(

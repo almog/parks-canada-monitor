@@ -12,7 +12,7 @@ import logging
 import httpx
 
 from parks_monitor.monitor import AvailabilityChange
-from parks_monitor.resolver import resolve_name
+from parks_monitor.resolver import reservation_url, resolve_name
 
 logger = logging.getLogger(__name__)
 
@@ -34,6 +34,7 @@ class NtfyNotifier:
         runs_str = ", ".join(str(r) for r in change.runs)
         title = f"Permit opened: {change.entry_name}"
         message = f"{resolve_name(change.resource_id)}: {runs_str}"
+        url = reservation_url(change.resource_id)
 
         try:
             r = await self._http.post(
@@ -43,6 +44,8 @@ class NtfyNotifier:
                     "Title": title,
                     "Priority": "high",
                     "Tags": "national_park,tada",
+                    "Click": url,
+                    "Actions": f"view, Book now, {url}, clear=true",
                 },
                 timeout=10.0,
             )

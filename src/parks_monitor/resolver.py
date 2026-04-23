@@ -5,12 +5,11 @@ Uses the bundled campsites.yaml mapping (fetched from the Parks Canada API).
 
 from __future__ import annotations
 
-from importlib import resources as importlib_resources
 from functools import lru_cache
+from importlib import resources as importlib_resources
 from typing import Literal
 
 import yaml
-
 
 SiteType = Literal["designated", "random", "hut", "trailhead", "horse", "access", "out_of_park", "private", "other"]
 
@@ -309,17 +308,6 @@ def resolve_ids(campsite_name: str) -> list[int]:
 def is_gdt_site(resource_id: int) -> bool:
     """Return True if this resource is along the GDT corridor."""
     return resource_id in _GDT_SITE_IDS
-
-
-def gdt_sites() -> dict[int, str]:
-    """Return resource_id -> name for all GDT-relevant sites, sorted by name."""
-    all_names = id_to_name()
-    return dict(
-        sorted(
-            {rid: all_names[rid] for rid in _GDT_SITE_IDS if rid in all_names}.items(),
-            key=lambda x: x[1],
-        )
-    )
 
 
 def campsite_names(

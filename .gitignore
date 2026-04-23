@@ -4,7 +4,8 @@
 # User-specific config and watchlists — contain secrets (ntfy topic, etc.)
 # Commit only the .example versions
 config.yaml
-watchlist.yaml
+watchlist*.yaml
+!watchlist.example.yaml
 
 # Evidence and log files from monitoring runs
 evidence/

@@ -38,6 +38,8 @@ class WatchlistEntry(BaseModel):
         if self.campsites:
             from parks_monitor.resolver import resolve_id, resolve_ids, resolve_name
 
+            ids = list(self.resource_ids)
+            seen = set(ids)
             for campsite_name in self.campsites:
                 rid = resolve_id(campsite_name)
                 if rid is None:
@@ -52,8 +54,10 @@ class WatchlistEntry(BaseModel):
                     raise ValueError(
                         f"No exact campsite match for '{campsite_name}'.{hint}"
                     )
-                if rid not in self.resource_ids:
-                    self.resource_ids.append(rid)
+                if rid not in seen:
+                    ids.append(rid)
+                    seen.add(rid)
+            self.resource_ids = ids
         if not self.resource_ids:
             raise ValueError(
                 "Entry must have at least one of 'resource_ids' or 'campsites'"
@@ -113,11 +117,29 @@ _ENV_VAR_PATTERN = re.compile(r"\$\{(\w+)\}")
 
 
 def _interpolate_env_vars(obj):
-    """Recursively replace ${VAR} with os.environ[VAR] in strings."""
+    """Recursively replace ${VAR} with os.environ[VAR] in strings.
+
+    Raises ValueError if any ${VAR} reference has no matching environment
+    variable — silently leaving the literal placeholder would misconfigure
+    downstream calls (e.g., posting to ntfy.sh/${MY_TOPIC} as a topic name).
+    """
     if isinstance(obj, str):
-        return _ENV_VAR_PATTERN.sub(
-            lambda m: os.environ.get(m.group(1), m.group(0)), obj
-        )
+        missing: list[str] = []
+
+        def replace(m: re.Match) -> str:
+            name = m.group(1)
+            if name in os.environ:
+                return os.environ[name]
+            missing.append(name)
+            return m.group(0)
+
+        result = _ENV_VAR_PATTERN.sub(replace, obj)
+        if missing:
+            raise ValueError(
+                f"Unresolved environment variable(s) in config: "
+                f"{', '.join(sorted(set(missing)))}"
+            )
+        return result
     if isinstance(obj, dict):
         return {k: _interpolate_env_vars(v) for k, v in obj.items()}
     if isinstance(obj, list):

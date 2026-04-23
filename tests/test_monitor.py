@@ -7,9 +7,9 @@ import pytest
 from parks_monitor.client import DailyAvailability
 from parks_monitor.config import Watchlist, WatchlistEntry
 from parks_monitor.monitor import (
-    _Pacer,
     _expected_keys,
     _merge_runs,
+    _Pacer,
     _prune_state,
     check_entry,
     run_cycle,
@@ -124,7 +124,6 @@ async def test_unavail_to_avail_notifies():
     changes = await run_cycle(client, watchlist, state)
     assert len(changes) == 1
     assert changes[0].site_date == date(2026, 7, 2)
-    assert changes[0].is_available is True
 
 
 async def test_avail_to_avail_no_duplicate():
@@ -256,45 +255,34 @@ async def test_merge_runs_empty():
 # --- pacer (Issue 4 + 7) ---
 
 
-async def test_pacer_skips_first_call_then_sleeps():
+async def test_pacer_skips_first_call_then_sleeps(monkeypatch):
     sleeps: list[float] = []
 
     async def fake_sleep(s):
         sleeps.append(s)
 
+    monkeypatch.setattr("parks_monitor.monitor.asyncio.sleep", fake_sleep)
     pacer = _Pacer((0.1, 0.2))
-    # Patch only the asyncio.sleep used inside the monitor module
-    import parks_monitor.monitor as monitor_mod
-    real = monitor_mod.asyncio.sleep
-    monitor_mod.asyncio.sleep = fake_sleep
-    try:
-        await pacer.tick()  # first — no sleep
-        await pacer.tick()  # second — sleep
-        await pacer.tick()  # third — sleep
-    finally:
-        monitor_mod.asyncio.sleep = real
+    await pacer.tick()  # first — no sleep
+    await pacer.tick()  # second — sleep
+    await pacer.tick()  # third — sleep
 
     assert len(sleeps) == 2
     for s in sleeps:
         assert 0.1 <= s <= 0.2
 
 
-async def test_pacer_zero_delay_never_sleeps():
+async def test_pacer_zero_delay_never_sleeps(monkeypatch):
     sleeps: list[float] = []
 
     async def fake_sleep(s):
         sleeps.append(s)
 
+    monkeypatch.setattr("parks_monitor.monitor.asyncio.sleep", fake_sleep)
     pacer = _Pacer((0.0, 0.0))
-    import parks_monitor.monitor as monitor_mod
-    real = monitor_mod.asyncio.sleep
-    monitor_mod.asyncio.sleep = fake_sleep
-    try:
-        await pacer.tick()
-        await pacer.tick()
-        await pacer.tick()
-    finally:
-        monitor_mod.asyncio.sleep = real
+    await pacer.tick()
+    await pacer.tick()
+    await pacer.tick()
 
     assert sleeps == []
 
@@ -373,6 +361,42 @@ async def test_run_cycle_aborts_on_429():
     assert rl.calls == 1
     # No state recorded for either resource
     assert state.last_availability == {}
+
+
+async def test_run_cycle_429_midway_still_emits_earlier_openings():
+    """429 on the Nth entry must still notify for openings detected earlier in the cycle.
+
+    Otherwise state.last_availability would be updated to 'available' without ever
+    firing a notification — and next cycle they'd look unchanged and stay silent.
+    """
+
+    class HalfFlakyClient:
+        def __init__(self):
+            self.calls = 0
+
+        async def check_daily_availability(self, resource_id, **kw):
+            self.calls += 1
+            if resource_id == -100:
+                return _avail(1, True)
+            req = httpx.Request("GET", "http://x")
+            resp = httpx.Response(429, request=req)
+            raise httpx.HTTPStatusError("rate", request=req, response=resp)
+
+    client = HalfFlakyClient()
+    # Seed baseline so entry A's site looks like a new opening.
+    state = State()
+    state.last_availability["-100::2026-07-01"] = False
+
+    entries = [
+        _make_entry(name="A", resource_ids=[-100], start="2026-07-01", end="2026-07-01"),
+        _make_entry(name="B", resource_ids=[-200], start="2026-07-01", end="2026-07-01"),
+    ]
+    watchlist = Watchlist(entries=entries)
+    changes = await run_cycle(client, watchlist, state, request_delay=(0, 0))
+
+    assert len(changes) == 1
+    assert changes[0].entry_name == "A"
+    assert changes[0].resource_id == -100
 
 
 async def test_run_cycle_skips_500_continues():
@@ -459,7 +483,7 @@ async def test_poll_loop_survives_run_cycle_error(tmp_path, monkeypatch):
         calls["n"] += 1
         if calls["n"] == 1:
             raise RuntimeError("boom")
-        return 0
+        return []
 
     monkeypatch.setattr("parks_monitor.monitor.run_cycle", fake_run_cycle)
     cfg = MonitorConfig(poll_interval_minutes=0, jitter_seconds=0)
@@ -488,7 +512,7 @@ async def test_poll_loop_survives_broken_watchlist(tmp_path, monkeypatch):
 
     async def fake_run_cycle(*a, **kw):
         cycles["n"] += 1
-        return 0
+        return []
 
     monkeypatch.setattr("parks_monitor.monitor.run_cycle", fake_run_cycle)
     cfg = MonitorConfig(poll_interval_minutes=0, jitter_seconds=0)
