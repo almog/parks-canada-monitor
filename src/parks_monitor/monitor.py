@@ -159,10 +159,10 @@ async def check_entry(
                     "HTTP error %d on resource %d for %s", code, rid, entry.name
                 )
                 continue
-            except (httpx.TimeoutException, httpx.NetworkError):
+            except (httpx.TimeoutException, httpx.NetworkError) as e:
                 logger.warning(
-                    "Network error on resource %d for %s; skipping this call",
-                    rid, entry.name,
+                    "Network error on resource %d for %s: %s: %s; skipping this call",
+                    rid, entry.name, type(e).__name__, e or "<no message>",
                 )
                 continue
             except Exception:
