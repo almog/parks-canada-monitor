@@ -251,36 +251,8 @@ uv sync --all-extras
 # Run tests
 uv run pytest
 
-# Run tests with verbose output
-uv run pytest -v
-
-# Run a specific test file
-uv run pytest tests/test_monitor.py
-
 # Lint
 uv run ruff check src/ tests/
-```
-
-### Project Structure
-
-```
-src/parks_monitor/
-  config.py      Config models + YAML loading
-  state.py       In-memory availability state + dedup
-  client.py      Parks Canada API client (httpx async)
-  monitor.py     Availability checker + diff + poll loop (logs new openings)
-  resolver.py    Resource ID <-> campsite name resolution
-  cli.py         Typer CLI commands
-  data/          Bundled campsite name mappings (415 resources)
-
-tests/
-  test_config.py       Config loading + validation
-  test_state.py        State transitions + dedup logic
-  test_client.py       API client with mocked HTTP (respx)
-  test_monitor.py      Poll cycle with fake client (asserts on returned changes)
-  test_cli.py          CLI commands
-  test_integration.py  Multi-cycle lifecycle tests
-  fixtures/            Recorded API responses from Parks Canada
 ```
 
 ## Requirements
