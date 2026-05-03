@@ -29,7 +29,6 @@ class WatchlistEntry(BaseModel):
     date_ranges: list[DateRange]
     flexibility_days: int = 0
     party_size: int = 1
-    auto_book: bool = False
     priority: Literal["high", "medium", "low"] = "medium"
 
     @model_validator(mode="after")
@@ -100,17 +99,10 @@ class NotificationsConfig(BaseModel):
     ntfy_url: str = "https://ntfy.sh"
 
 
-class AutoBookConfig(BaseModel):
-    enabled: bool = False
-    dry_run: bool = True
-    daily_limit: int = 3
-
-
 class AppConfig(BaseModel):
     monitor: MonitorConfig = MonitorConfig()
     parks_canada: ParksCanadaConfig = ParksCanadaConfig()
     notifications: NotificationsConfig = NotificationsConfig()
-    auto_book: AutoBookConfig = AutoBookConfig()
 
 
 _ENV_VAR_PATTERN = re.compile(r"\$\{(\w+)\}")

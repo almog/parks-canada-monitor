@@ -11,8 +11,3 @@ parks_canada:
 notifications:
   ntfy_topic: ""        # set to your topic name to enable push notifications
   ntfy_url: "https://ntfy.sh"  # override for a self-hosted ntfy server
-
-auto_book:
-  enabled: false    # planned — not implemented in the current release
-  dry_run: true
-  daily_limit: 3

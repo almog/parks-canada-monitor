@@ -37,7 +37,6 @@ def test_watchlist_entry_defaults():
     )
     assert entry.flexibility_days == 0
     assert entry.party_size == 1
-    assert entry.auto_book is False
     assert entry.priority == "medium"
 
 
@@ -73,8 +72,6 @@ def test_app_config_defaults():
     assert config.monitor.poll_interval_minutes == 10
     assert config.monitor.dedup_hours == 4
     assert config.parks_canada.base_url == "https://reservation.pc.gc.ca"
-    assert config.auto_book.enabled is False
-    assert config.auto_book.dry_run is True
 
 
 def test_load_config_from_yaml(tmp_path: Path):

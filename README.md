@@ -88,11 +88,6 @@ parks_canada:
 notifications:
   ntfy_topic: ""                # set to your topic name to enable push notifications
   ntfy_url: "https://ntfy.sh"  # override for a self-hosted ntfy server
-
-auto_book:
-  enabled: false    # planned — not implemented in the current release
-  dry_run: true
-  daily_limit: 3
 ```
 
 Environment variable interpolation with `${VAR}` syntax is supported in any string value if you ever need it.
@@ -131,7 +126,6 @@ Use campsite names from `parks-monitor discover` in the `campsites` field. You c
 | `date_ranges` | yes | — | List of `{start, end}` date ranges (YYYY-MM-DD) |
 | `flexibility_days` | no | `0` | Expand each date range by ±N days |
 | `party_size` | no | `1` | Number of people to ask Parks Canada about |
-| `auto_book` | no | `false` | Auto-book when available (not yet implemented) |
 | `priority` | no | `"medium"` | `high`, `medium`, or `low` |
 
 At least one of `campsites` or `resource_ids` is required per entry.
@@ -229,7 +223,6 @@ That's it. When a watched site opens up you'll get a high-priority push notifica
 - Campsite names must match exactly. Use `parks-monitor discover` or `parks-monitor watchlist add` to avoid typos.
 - Date ranges are inclusive: `start: 2026-07-15` and `end: 2026-07-17` checks July 15, 16, and 17.
 - `config.yaml` may contain your private ntfy topic. It is gitignored for that reason; commit `config.example.yaml`, not your local config.
-- Auto-booking is planned but not implemented in the current release. The monitor detects openings and can notify you; it does not reserve permits.
 - The first `run` cycle is baseline-only. Use `parks-monitor check` if you want to inspect current availability before starting the long-running monitor.
 
 ## How It Works
