@@ -10,7 +10,7 @@ Current bundled campsite names cover Banff, Kootenay and Yoho, Jasper, and Water
 
 ```bash
 # Clone and install
-git clone <repo-url> && cd parks-canada-monitor
+git clone https://github.com/almog/parks-canada-monitor && cd parks-canada-monitor
 uv sync
 
 # Find exact campsite names
