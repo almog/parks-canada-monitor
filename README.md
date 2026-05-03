@@ -4,6 +4,8 @@ Watches for cancelled backcountry camping permits on Parks Canada's reservation 
 
 Parks Canada uses the GoingToCamp platform at `reservation.pc.gc.ca`. Permits sell out within minutes of opening day each January. The only way to get them after that is to catch cancellations — this tool does that automatically.
 
+Current bundled campsite names cover Banff, Kootenay and Yoho, Jasper, and Waterton Lakes backcountry. The monitor is not inherently tied to only those parks, but new Parks Canada locations need a verified resource mapping before they are usable by name. This tool is for backcountry permits, not frontcountry campground reservations.
+
 ## Quick Start
 
 ```bash
@@ -11,7 +13,7 @@ Parks Canada uses the GoingToCamp platform at `reservation.pc.gc.ca`. Permits se
 git clone <repo-url> && cd parks-canada-monitor
 uv sync
 
-# Find campground IDs
+# Find exact campsite names
 uv run parks-monitor discover --park banff
 
 # Set up config files (see below)
@@ -37,11 +39,38 @@ parks-monitor discover
 # Filter to a specific park
 parks-monitor discover --park jasper
 
+# Show only GDT-corridor sites in Jasper
+parks-monitor discover --park jasper --gdt
+
 # Waterton has only 16 campsites
 parks-monitor discover --park waterton
 ```
 
 This prints a table of all backcountry campsites and their names. Copy the exact campsite name into your watchlist's `campsites` field.
+
+Example output:
+
+```text
+               Jasper - Backcountry [GDT]
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Campsite Name       ┃ Type       ┃ Resource ID ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ 45 - Surprise Point │ designated │ -2147483257 │
+│ 46 - Amethyst       │ designated │ -2147483186 │
+│ 47 - Maccarib       │ designated │ -2147483278 │
+└─────────────────────┴────────────┴─────────────┘
+```
+
+You can also add entries without hand-editing YAML:
+
+```bash
+parks-monitor watchlist add "Egypt Lake - E13" \
+  --start 2026-07-15 \
+  --end 2026-07-17 \
+  --party 2
+
+parks-monitor watchlist list
+```
 
 ## Configuration
 
@@ -61,7 +90,7 @@ notifications:
   ntfy_url: "https://ntfy.sh"  # override for a self-hosted ntfy server
 
 auto_book:
-  enabled: false    # Phase 2 — not yet implemented
+  enabled: false    # planned — not implemented in the current release
   dry_run: true
   daily_limit: 3
 ```
@@ -101,11 +130,13 @@ Use campsite names from `parks-monitor discover` in the `campsites` field. You c
 | `resource_ids` | no | `[]` | Numeric resource IDs (alternative to `campsites`) |
 | `date_ranges` | yes | — | List of `{start, end}` date ranges (YYYY-MM-DD) |
 | `flexibility_days` | no | `0` | Expand each date range by ±N days |
-| `party_size` | no | `1` | Number of people |
+| `party_size` | no | `1` | Number of people to ask Parks Canada about |
 | `auto_book` | no | `false` | Auto-book when available (not yet implemented) |
 | `priority` | no | `"medium"` | `high`, `medium`, or `low` |
 
 At least one of `campsites` or `resource_ids` is required per entry.
+
+`party_size` is passed through to Parks Canada's availability endpoint. The monitor treats a response as "available" only when Parks Canada says the site is bookable for the requested party size; it does not interpret `availability: 1` as "one person" or "one remaining spot".
 
 The watchlist is hot-reloaded — edit it while the monitor is running and changes take effect on the next poll cycle. No restart needed.
 
@@ -119,6 +150,15 @@ Starts the continuous monitoring loop. Polls Parks Canada every N minutes and em
 parks-monitor run                                  # defaults
 parks-monitor run -c my-config.yaml -w my-list.yaml  # custom paths
 parks-monitor run -v                                 # verbose logging
+parks-monitor run -w watchlist-watch.yaml --log-file monitor.log
+```
+
+The first monitor cycle records current availability as a baseline and does not send alerts. Alerts only happen when a watched site changes from unavailable to available after that baseline.
+
+Example log line:
+
+```text
+NEW OPENING: Tonquin Valley — resource -2147483186 — 2026-07-15 → 2026-07-17
 ```
 
 ### `parks-monitor check`
@@ -130,9 +170,21 @@ parks-monitor check
 parks-monitor check -w watchlist.yaml -v
 ```
 
+Example output:
+
+```text
+                Tonquin Valley
+┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Campsite      ┃ Date       ┃ Available ┃
+┡━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ 46 - Amethyst │ 2026-07-15 │ no        │
+│ 46 - Amethyst │ 2026-07-16 │ YES       │
+└───────────────┴────────────┴───────────┘
+```
+
 ### `parks-monitor discover`
 
-Lists backcountry campgrounds and their resource IDs from the Parks Canada API.
+Lists bundled backcountry campsite names and resource IDs. Availability checks still use the live Parks Canada API.
 
 ```bash
 parks-monitor discover                # all backcountry locations
@@ -171,6 +223,14 @@ That's it. When a watched site opens up you'll get a high-priority push notifica
 > Then `export NTFY_TOPIC=parks-monitor-x7k2m` before running.
 
 > The public ntfy.sh server is free and requires no account. For privacy, you can [self-host ntfy](https://docs.ntfy.sh/install/) and set `ntfy_url` to your server's address.
+
+## Common Mistakes
+
+- Campsite names must match exactly. Use `parks-monitor discover` or `parks-monitor watchlist add` to avoid typos.
+- Date ranges are inclusive: `start: 2026-07-15` and `end: 2026-07-17` checks July 15, 16, and 17.
+- `config.yaml` may contain your private ntfy topic. It is gitignored for that reason; commit `config.example.yaml`, not your local config.
+- Auto-booking is planned but not implemented in the current release. The monitor detects openings and can notify you; it does not reserve permits.
+- The first `run` cycle is baseline-only. Use `parks-monitor check` if you want to inspect current availability before starting the long-running monitor.
 
 ## How It Works
 

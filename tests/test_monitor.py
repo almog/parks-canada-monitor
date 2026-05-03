@@ -200,6 +200,10 @@ async def test_opening_logged(caplog):
     with caplog.at_level(logging.WARNING, logger="parks_monitor.monitor"):
         await run_cycle(client, watchlist, state, request_delay=(0, 0))
     assert any("NEW OPENING" in r.message for r in caplog.records)
+    assert any(
+        r.message == "NEW OPENING: Test — resource -100 — 2026-07-01"
+        for r in caplog.records
+    )
 
 
 # --- batching (Issue 5) ---

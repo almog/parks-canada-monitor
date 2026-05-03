@@ -13,6 +13,6 @@ notifications:
   ntfy_url: "https://ntfy.sh"  # override for a self-hosted ntfy server
 
 auto_book:
-  enabled: false
+  enabled: false    # planned — not implemented in the current release
   dry_run: true
   daily_limit: 3
